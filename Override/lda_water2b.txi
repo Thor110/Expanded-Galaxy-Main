@@ -1,0 +1,7 @@
+isbumpmap 1
+bumpmapscaling .2
+
+proceduretype cycle
+numx 8
+numy 8
+fps 30

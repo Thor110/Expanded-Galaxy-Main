@@ -1,0 +1,22 @@
+#MAXLAYOUT ASCII
+filedependancy m25ab.max
+beginlayout
+   roomcount 11
+      m25ab_04a 225.0 412.5 0.0
+      m25ab_05a 300.001 412.5 0.0
+      m25ab_06a 0.0 450.0 0.0
+      m25ab_07a 75.0 450.0 0.0
+      m25ab_08a 150.0 450.0 0.0
+      m25ab_09a 225.0 450.0 0.0
+      m25ab_11a 0.0 487.5 0.0
+      m25ab_02a 75.0 412.5 0.0
+      m25ab_03a 150.0 412.5 0.0
+      m25ab_10a 300.001 450.0 0.0
+      m25ab_01a 0.0 412.5 0.0
+   trackcount 0
+   obstaclecount 0
+   doorhookcount 3
+      m25ab_09a door_1 0 19.3541 237.603 11.0116 0.700909 0.0 0.0 0.71325
+      m25ab_11a door_2 0 14.4092 157.748 10.189 0.980785 0.0 0.0 -0.19509
+      m25ab_02a door_3 0 147.942 137.449 9.46424 0.569997 0.0 0.0 0.821647
+donelayout

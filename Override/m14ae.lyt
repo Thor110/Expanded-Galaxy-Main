@@ -1,0 +1,10 @@
+#MAXLAYOUT ASCII
+filedependancy m14ae.max
+beginlayout
+   roomcount 2
+      M14ae_01a 39.1247 216.655 10.0264
+      M14ae_02a 56.4217 216.655 10.0264
+   trackcount 0
+   obstaclecount 0
+   doorhookcount 0
+donelayout
