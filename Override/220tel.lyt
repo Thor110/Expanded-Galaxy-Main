@@ -1,0 +1,17 @@
+#MAXLAYOUT ASCII
+filedependancy 220TEL.max
+beginlayout
+   roomcount 3
+      220TELf -152.945 -4.69828 0.0
+      220TELb -136.534 -18.6065 0.0
+      220TELc -759.515 1139.429 30.0
+   trackcount 0
+   obstaclecount 0
+   doorhookcount 6
+      220TELf Door_40 0 79.9875 -10.6179 0.0 0.707107 0.0 0.0 0.707107
+      220TELf Door_18 0 55.9262 -0.713812 0.0 1.0 0.0 0.0 0.0
+      220TELf Door_17 0 55.9262 -20.1964 0.0 1.0 0.0 0.0 0.0
+      220TELf Door_19 0 36.2749 -0.713812 0.0 1.0 0.0 0.0 0.0
+      220TELf Door_15 0 17.5069 -20.1431 0.0 1.0 0.0 0.0 0.0
+      220TELf Door_01 0 -10.985 -0.692468 0.0 1.0 0.0 0.0 0.0
+donelayout
