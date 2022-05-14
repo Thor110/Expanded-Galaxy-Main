@@ -2,3 +2,5 @@ Yavin Station Hangar by WildKarrde included with both parts of the project.
 
 Duplicate TGA files removed that already exist as TPC files.
 
+SH_Nar Shaddaa Docks' Computer and Monitor Upgrade and SH_Swoop Monitors ( Animated ) by SithHolocron included with the main part of the project.
+

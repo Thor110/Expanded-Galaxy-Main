@@ -85,6 +85,7 @@ Darth Shan	- Extra Difficulty Options
 seedhartha	- Advice on Importing/Exporting in Blender & Creating the latest KotOR Blender Plugin!
 N-Drew25	- Selkath Xbox Voice Files
 PapaZinos	- Various Level Model Fixes
+SithHolocron	- Nar Shaddaa Docks' Computer and Monitor Upgrade and Animated Swoop Monitors
 
 many more and a big shout out to everyone that has supported the project on the Discord channel.
 
