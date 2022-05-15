@@ -52,6 +52,17 @@ DarthRevan101	- advice
 Darth_Sapiens	- Animated Logo ( TSLRCM / M478EP ) - I will update this to say the correct version numbers
 JC		- advice
 JCarter426	- K2 Loadscreen Template
+		- Republic Soldier Fix for K2 v1.1
+		- VO Fix for K2 v1.1
+		- Zhug Attack Fix for TSLRCM v1.1
+		- Minor Fixes for K2 v1.5
+		- Shader Fixes for K2 v1.1
+		- Feat Fixes for K2 v1.1 ( Not Included Yet )
+		- Minor Fixes for K1 v1.1
+		- Dense Aliens for K1 ( Not Included Yet )
+		- Jedi Tailor for K1 v1.4 ( Not Included Yet )
+		- Korriban - Back in Black for K1 v2.3 ( Not Included Yet )
+		- Republic Soldier Fix for K1 v1.3( Not Included Yet )
 Stoney		- Sleheyron Demo / Maps
 		- Placeable Ebon Hawk Model ( Included in the Port )
 ebmar		- advice
