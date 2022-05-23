@@ -14,5 +14,5 @@ Some files from JC's K1 fixes for K1CP have been included.
 
 Salk's Animated Texture for the Ebon Hawk Panels is now included with the main part of the project.
 
-
+Tatooine Sandcrawler removed by PapaZinos
 
