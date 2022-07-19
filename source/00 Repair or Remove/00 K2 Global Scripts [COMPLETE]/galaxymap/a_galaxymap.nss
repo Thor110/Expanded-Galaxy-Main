@@ -182,7 +182,7 @@ void main() {
         SetPlanetAvailable(PLANET_HARBINGER, TRUE); // HARBINGER IS TELOS : CITADEL STATION
         SetPlanetSelectable(PLANET_HARBINGER, TRUE); //
         SetPlanetAvailable(PLANET_MALACHOR_V, TRUE); // MALACHOR_V is a spare planet space - now peragus - spare for future use
-        SetPlanetSelectable(PLANET_MALACHOR_V, FALSE);
+        SetPlanetSelectable(PLANET_MALACHOR_V, TRUE);
         //SetPlanetAvailable(PLANET_EBON_HAWK, TRUE);// EBON_HAWK IS MALACHOR_V
         //SetPlanetSelectable(PLANET_EBON_HAWK, TRUE);
         //SetPlanetAvailable(PLANET_PERAGUS, TRUE);// PERAGUS IS SLEHEYRON
@@ -313,22 +313,29 @@ void main() {
     // after peragus works
     //
     // check after telos
-    if (GetGlobalNumber("262TEL_Escape_Telos") == 0)
+    /*if (GetGlobalNumber("262TEL_Escape_Telos") == 0)
     {
+
+            SetPlanetAvailable(PLANET_HARBINGER, TRUE);
+            SetPlanetSelectable(PLANET_HARBINGER, TRUE);  
+            SetPlanetAvailable(PLANET_MALACHOR_V, TRUE);
+            SetPlanetSelectable(PLANET_MALACHOR_V, TRUE); 
         //int12=10;// otherwise Sleheyron is selected
-        int12=5;//5
-        SetPlanetAvailable(int12, TRUE);
-        SetPlanetSelectable(int12, FALSE);
+        int12=10;//5
+        //SetPlanetAvailable(int12, TRUE);
+        //SetPlanetSelectable(int12, FALSE);
         ShowGalaxyMap(int12);
         //QueueMovie("HypMov01");// make a "HypMov02" removing the entering hyperspace
         //QueueMovie("TelMov01");
         //PlayMovieQueue();
         //StartNewModule("201TEL", "WP_from_ebonhawk");
         //ExecuteScript("k_sup_galaxymap", OBJECT_SELF, -1);
-    }
+    }*/
     else
     {
         SetPlanetSelectable(int12, FALSE);
         ShowGalaxyMap(int12);
     }
 }
+
+
