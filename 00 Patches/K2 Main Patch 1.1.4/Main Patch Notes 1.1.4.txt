@@ -1,0 +1,11 @@
+HK-47 Disabled Animation Eye Fix - by MariusFett has been included with the project
+
+Integrated TSLRCM 2022 Changes.
+
+Construction Droid Shadow Fixed by PapaZinos
+
+TSL_Turrets_Models_Repair_v1.0 by PapaZinos
+
+Ultimate_Harbinger_Model_Repairs_v2.0.1 by PapaZinos
+
+Galaxy Map Tutorial Bug Fixed
