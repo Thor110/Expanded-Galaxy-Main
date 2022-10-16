@@ -1,0 +1,8 @@
+having just peragus on the galaxy map works once, but if you exit and open the galaxy map
+it wont work...
+
+I wonder if there is a way to spoof this
+
+or set it to a different number each time
+
+or make it work...
