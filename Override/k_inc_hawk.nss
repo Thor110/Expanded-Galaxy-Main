@@ -279,23 +279,23 @@ void SetBackground()
         }break;
         case 11: //KASHYYYK
         {
-            nRoomAnimation = ANIMATION_ROOM_SCRIPTLOOP05;//KASHYYYK
+            nRoomAnimation = ANIMATION_ROOM_SCRIPTLOOP12;//KASHYYYK
         }break; 
         case 12: //954COR
         {
-            nRoomAnimation = ANIMATION_ROOM_SCRIPTLOOP04;//CORUSCANT
+            nRoomAnimation = ANIMATION_ROOM_SCRIPTLOOP13;//CORUSCANT
         }break; 
         case 13: //YAVIN
         {
-            nRoomAnimation = ANIMATION_ROOM_SCRIPTLOOP01;//YAVIN
+            nRoomAnimation = ANIMATION_ROOM_SCRIPTLOOP14;//YAVIN
         }break;  
         case 14: //TATOOINE
         {
-            nRoomAnimation = ANIMATION_ROOM_SCRIPTLOOP06;//TATOOINE
+            nRoomAnimation = ANIMATION_ROOM_SCRIPTLOOP15;//TATOOINE
         }break;  
         case 15: //MANAAN
         {
-            nRoomAnimation = ANIMATION_ROOM_SCRIPTLOOP01;//MANAAN
+            nRoomAnimation = ANIMATION_ROOM_SCRIPTLOOP16;//MANAAN
         }break; 
         default://error
         {
