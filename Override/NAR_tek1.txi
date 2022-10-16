@@ -1,0 +1,5 @@
+envmaptexture mycube
+proceduretype cycle
+numx 2
+numy 2
+fps  1 
