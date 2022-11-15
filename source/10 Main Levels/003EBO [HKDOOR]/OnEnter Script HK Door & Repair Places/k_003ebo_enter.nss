@@ -142,6 +142,12 @@ void UpdateSomeNumbers() {
 // ---------------------------------------------------------------
 void DoCutscenes() {
     object oPC = GetFirstPC();
+    if(GetGlobalBoolean("EH_REPAIR") == TRUE)
+    {
+        //Add Cutscene For Repairing The Ship ?.!
+        DestroyObject(GetObjectByTag("baoplace"));
+        DestroyObject(GetObjectByTag("baoplace2"));
+    }
     if(GetGlobalBoolean("LEAVING_POLAR") == TRUE)
     {
         SetGlobalNumber("003EBO_BACKGROUND", 10);

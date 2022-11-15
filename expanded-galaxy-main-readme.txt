@@ -189,7 +189,7 @@ Artists
 
 @Whyp
 
-Programmers
+Lead Developer & Programmer
 
 @Thor110
 
