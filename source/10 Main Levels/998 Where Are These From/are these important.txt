@@ -1,0 +1,51 @@
+determine if these are edited and salvage the edits or create folders for them
+
+because these were in the main repository modules folder but don't have a corresponding folder
+
+in the source folder
+
+these might be tslrcm changes? but listed as unused in clearup junk folder...
+
+304nar Jekk Jekk Tarr???
+
+351nar gotos yacht???
+
+503ond iziz cantina???
+
+504ond sky ramp???
+
+610dan enclave sub level???
+
+650dan rebuild jedi enclave???
+
+same file count as TSLRCM2022
+
+figure out the above levels when you get there...
+
+
+KEPT - JUST INCASE
+
+M478 was there because it got patched over time and back to the original eventually
+101per - peragus tweak
+102per was from a tslrcm change that now isn't needed
+103per are likely there because of the peragus tweak that got added then removed
+104per was a fix that wasn't needed. I don't recall editing 104per - asteroid exterior, prior.
+203nar - tslrcm change
+
+KEPT - JUST INCASE
+
+205tel Carth Extended Cutscene, restored.
+
+303nar is PapaZinos edits to the docks, restored.
+
+901mal spawn point changed, restored.
+
+905mal trayus rank reform, restored.
+
+910mal in-game cutscene, restored.
+
+153har is something, restored for now, find out later. FIND OUT FOR SURE??????PLEASE??????TO NAME FOLDER
+
+if I recall, I edited the position of the door...
+
+but it contains models??? when compared to TSLRCM2022s version. ( must be an included??? )

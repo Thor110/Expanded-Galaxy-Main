@@ -1,0 +1,13 @@
+Ebon Hawk doorway / model fixed
+
+ebon hawk armband now prompts a dialog when trying to warp in combat or when the player character is dead
+
+Trayus Rank Reform now properly included again ( Sith missing heads etc )
+
+M478 levels reverted to M478EP 1.5.1
+
+Peragus 101,102,103 & 105 reverted to TSLRCM 1.8.6
+
+Leaving Ebon Hawk On Kashyyyk Now Works Properly Again
+
+Selkath Xbox Voice Over Files added - Thanks to N-Drew25 for allowing me to include them.

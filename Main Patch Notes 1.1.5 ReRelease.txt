@@ -1,0 +1,10 @@
+HK Door Global Boolean added to globalcat.2da
+repairplace2 added to placeables.2da
+plc_hiqhTec internal name mismatch fixed
+walkmesh for PLC_M4Panel3
+PLC_rad01 walkmesh extended
+003EBO modified to reflect these changes
+003eboe.mdl walkmesh modified
+plc_repairplace walkmesh modified
+950COR modified to add HK Door and check for variable plus to open the door
+modules previously edited by the peragus tweak and m478 edits removed. - full reinstall required

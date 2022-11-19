@@ -73,7 +73,7 @@ TimurD2003	- M4-78 Fog Fixes
 Kexikus		- Updated Coruscant Texture & Planet Icon
 		- Extended Jedi Council Meeting
 VarsityPuppet	- Malachor V Sideways opening doors
-		- Peragus Tweak
+		- Peragus Tweak ( removed due to a bug )
 		- Trayus Rank Reform
 danil-ch	- Extended Carth Meeting
 		- Kreia's dialog on small kindnesses
