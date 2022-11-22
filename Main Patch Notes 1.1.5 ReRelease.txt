@@ -8,3 +8,4 @@ PLC_rad01 walkmesh extended
 plc_repairplace walkmesh modified
 950COR modified to add HK Door and check for variable plus to open the door
 modules previously edited by the peragus tweak and m478 edits removed. - full reinstall required
+001ebo.vis edited to remove unneeded entries
