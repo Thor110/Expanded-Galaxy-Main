@@ -166,7 +166,7 @@ Sleheyron
 
 Extra Planet Slot Has been used to put Peragus back onto the Galaxy Map.
 
-A total of 14 worlds, not including Malachor V and Onderon.
+A total of 13 worlds, not including Malachor V and Onderon.
 
 If anybody is interested contact me on DeadlyStream or Discord and let me know what you had in mind.
 
@@ -187,7 +187,11 @@ Streaming Testers
 
 Artists
 
-@Whyp
+@Whyp ( Promotional Material & Planet Icons )
+
+3D Modelling
+
+@PapaZinos
 
 Lead Developer & Programmer
 
