@@ -97,6 +97,7 @@ seedhartha	- Advice on Importing/Exporting in Blender & Creating the latest KotO
 N-Drew25	- Selkath Xbox Voice Files
 PapaZinos	- Various Level Model Fixes
 SithHolocron	- Nar Shaddaa Docks' Computer and Monitor Upgrade and Animated Swoop Monitors
+zbyl2		- Advice & Help finding files that do stuff in TSLRCM.
 
 many more and a big shout out to everyone that has supported the project on the Discord channel.
 
