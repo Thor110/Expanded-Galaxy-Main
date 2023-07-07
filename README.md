@@ -21,4 +21,4 @@ The following install order is *required* for Expanded Galaxy Main:
 5: K2 Expanded Galaxy (the mod provided by this repo)
 6: (Port)[https://github.com/Thor110/Expanded-Galaxy-Port]
 
-## (Testing)[https://github.com/Thor110/Expanded-Galaxy-Main/blob/main/TESTING.md]
+## (Testing instructions)[https://github.com/Thor110/Expanded-Galaxy-Main/blob/main/TESTING.md]
