@@ -10,7 +10,7 @@ This Mod is also intended for use in conjunction with the following three mods. 
 
 ( GoG & Steam Users Can Skip The Above Patch )
 
-1. Aspyr Patched Files ( Optional ) ( Steam Users Must Skip This Step )
+1. Aspyr testPatched Files ( Optional ) ( Steam Users Must Skip This Step )
 
 2. The Sith Lords Restored Content Modification v1.8.6
 https://deadlystream.com/files/file/578-tsl-restored-content-mod/
