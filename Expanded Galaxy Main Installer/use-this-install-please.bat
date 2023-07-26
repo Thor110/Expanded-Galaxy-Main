@@ -12,6 +12,6 @@ if exist "%level%\chitin.key" (
   exit
 )
 
-tslpatchdata\pykotorcli.exe "%level%" "%cd%"
+tslpatchdata\pykotorcli.exe "%level%" "%first%"
 
 pause
