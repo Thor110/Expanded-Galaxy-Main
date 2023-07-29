@@ -1,6 +1,6 @@
-Expanded Galaxy Project v1.1.6 for Knights of the Old Republic II by Thor110
+Expanded Galaxy Project v1.1.7 for Knights of the Old Republic II by Thor110
 
-v1.1.6 has been fully refactored and will possibly require a full reinstall.
+v1.1.7 has been fully refactored and will possibly require a full reinstall.
 
 <----------------------------------------------------------------------------------------------------------->
 
@@ -23,7 +23,7 @@ https://deadlystream.com/files/file/277-m4-78-enhancement-project/
 4. TSL Jedi Temple - Installed via "Install.exe"
 https://deadlystream.com/files/file/585-coruscant-jedi-temple-by-deathdisco/
 
-5. Expanded Galaxy Project 1.1.6 - Installed via "use-this-install-please.bat"
+5. Expanded Galaxy Project 1.1.7 - Installed via "use-this-install-please.bat"
 https://deadlystream.com/files/file/
 
 <----------------------------------------------------------------------------------------------------------->
