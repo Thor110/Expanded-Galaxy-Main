@@ -1,6 +1,7 @@
 title Expanded Galaxy Project Installer
 
 @echo off
+setlocal enabledelayedexpansion
 set temp = 0
 
 Rem KOTOR2 DISC
@@ -33,18 +34,18 @@ if %errorlevel% equ 0 (
 cls
 
 if defined mykey1 (
-  set /a temp=%temp%+1
-  set mykey=%mykey1%
+  set /a temp+=1
+  set "mykey=!mykey1!"
 )
 
 if defined mykey2 (
-  set /a temp=%temp%+1
-  set mykey=%mykey2%
+  set /a temp+=1
+  set "mykey=!mykey2!"
 )
 
 if defined mykey3 (
-  set /a temp=%temp%+1
-  set mykey=%mykey3%
+  set /a temp+=1
+  set "mykey=!mykey3!"
 )
 
 if %temp% equ 1 goto :INSTALL
