@@ -53,20 +53,25 @@ echo GoG Version = 2
 echo Steam Version = 3
 set /p Install="Which install to use: "
 echo %Install%|findstr /r "[^0-9]" && (
-    goto :INPUT
+  goto :INPUT
 )
 if %Install% gtr 3  (
-   echo enter a number between 1 and 3
-   goto :INPUT
+  echo enter a number between 1 and 3
+  goto :INPUT
 )
 if %Install% lss 1 (
-   echo enter a number between 1 and 3
-   goto :INPUT
+  echo enter a number between 1 and 3
+  goto :INPUT
 )
 
 if %Install% == 1 set mykey=%mykey1%
 if %Install% == 2 set mykey=%mykey2%
 if %Install% == 3 set mykey=%mykey3%
+if not defined mykey (
+  cls
+  echo Input incorrect or no installation of the game detected!
+  goto :INPUT
+)
 
 :INSTALL
 
