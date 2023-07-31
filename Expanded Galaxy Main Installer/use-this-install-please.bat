@@ -48,6 +48,8 @@ if defined mykey3 (
   set "mykey=!mykey3!"
 )
 
+setlocal disabledelayedexpansion
+
 if %temp% equ 1 goto :INSTALL
 
 :INPUT
