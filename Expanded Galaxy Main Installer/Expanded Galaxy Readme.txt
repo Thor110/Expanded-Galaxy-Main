@@ -1,6 +1,6 @@
-Expanded Galaxy Project v1.1.7 for Knights of the Old Republic II by Thor110
+Expanded Galaxy Project v1.1.8 for Knights of the Old Republic II by Thor110
 
-v1.1.7 has been fully refactored and will possibly require a full reinstall.
+v1.1.8 has been fully refactored and will possibly require a full reinstall.
 
 <----------------------------------------------------------------------------------------------------------->
 
@@ -23,7 +23,7 @@ https://deadlystream.com/files/file/277-m4-78-enhancement-project/
 4. TSL Jedi Temple - Installed via "Install.exe"
 https://deadlystream.com/files/file/585-coruscant-jedi-temple-by-deathdisco/
 
-5. Expanded Galaxy Project 1.1.7 - Installed via "use-this-install-please.bat"
+5. Expanded Galaxy Project 1.1.8 - Installed via "use-this-install-please.bat"
 https://deadlystream.com/files/file/
 
 <----------------------------------------------------------------------------------------------------------->
@@ -99,6 +99,7 @@ N-Drew25	- Selkath Xbox Voice Files
 PapaZinos	- Various Level Model Fixes
 SithHolocron	- Nar Shaddaa Docks' Computer and Monitor Upgrade and Animated Swoop Monitors
 zbyl2		- Advice & Help finding files that do stuff in TSLRCM.
+th3w1zard1	- various updates to pykotor that helped with the installers for the project.
 
 many more and a big shout out to everyone that has supported the project on the Discord channel.
 

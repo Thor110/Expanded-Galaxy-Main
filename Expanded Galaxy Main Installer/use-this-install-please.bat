@@ -1,4 +1,4 @@
-title Expanded Galaxy Project Installer
+title Star Wars : Knights of the Old Republic II : Expanded Galaxy Project Main Installer
 
 @echo off
 setlocal enabledelayedexpansion
@@ -7,7 +7,7 @@ set temp = 0
 Rem KOTOR2 DISC
 reg query HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\LucasArts\KotOR2 /v Path /s
 if %errorlevel% equ 0 (
-  echo "Hello World! Loyal fan & owner of a disc copy of the game!"
+  echo Hello World! Loyal fan & owner of a disc copy of the game!
   FOR /F "tokens=2* skip=2" %%a in ('reg query "HKLM\SOFTWARE\WOW6432Node\LucasArts\KotOR2" /v "Path"') do set mykey1=%%b
 ) else (
   Rem echo "kotor 2 disc registry entry not detected!"
@@ -16,7 +16,7 @@ if %errorlevel% equ 0 (
 Rem KOTOR2 GOG
 reg query HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\Games\1421404581 /v PATH /s
 if %errorlevel% equ 0 (
-  echo "Hello World! Good old Games User!"
+  echo Hello World! Good old Games User!
   FOR /F "tokens=2* skip=2" %%a in ('reg query "HKLM\SSOFTWARE\GOG.com\Games\1421404581" /v "PATH"') do set mykey2=%%b
 ) else (
   Rem echo "kotor 2 gog registry entry not detected!"
@@ -25,7 +25,7 @@ if %errorlevel% equ 0 (
 Rem KOTOR2 STEAM
 reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 208580" /v InstallLocation /s
 if %errorlevel% equ 0 (
-  echo "Hello World! Steam User!"
+  echo Hello World! Steam User!
   FOR /F "tokens=2* skip=2" %%a in ('reg query "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 208580" /v "InstallLocation"') do set mykey3=%%b
 ) else (
   Rem echo "kotor 2 steam registry entry not detected!"
@@ -77,22 +77,24 @@ if not defined mykey (
   goto :INPUT
 )
 
+cls
+
 :INSTALL
 
 if exist "%mykey%\chitin.key" (
-  echo "Star Wars : Knights of the Old Republic II Installation Detected!"
+  echo Star Wars : Knights of the Old Republic II Installation Detected!
 ) else (
-  echo "Star Wars : Knights of the Old Republic II Installation Not Detected!"
+  echo Star Wars : Knights of the Old Republic II Installation Not Detected!
   pause
   exit
 )
 
-echo "Installing Expanded Galaxy Project"
+echo Installing Expanded Galaxy Project
 
 tslpatchdata\pykotorcli.exe "%mykey%" "%cd%"
 
 cls
 
-echo "Star Wars : Knights of the Old Republic II Expanded Galaxy Main Project Installation Completed!"
+echo Star Wars : Knights of the Old Republic II Expanded Galaxy Main Project Installation Completed!
 
 pause
