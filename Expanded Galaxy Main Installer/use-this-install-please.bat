@@ -34,20 +34,23 @@ cls
 
 if defined mykey1 (
   set /a temp=%temp%+1
+  set mykey=%mykey1%
 )
 
 if defined mykey2 (
   set /a temp=%temp%+1
+  set mykey=%mykey2%
 )
 
 if defined mykey3 (
   set /a temp=%temp%+1
+  set mykey=%mykey3%
 )
 
-if temp == 0 goto INSTALL
+if %temp% equ 1 goto :INSTALL
 
 :INPUT
-echo Please enter which install of the first game to use.
+echo Please enter which install of the second game to use.
 echo Disc Version = 1
 echo GoG Version = 2
 echo Steam Version = 3
