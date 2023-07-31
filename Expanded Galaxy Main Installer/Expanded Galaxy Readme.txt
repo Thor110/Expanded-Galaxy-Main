@@ -99,7 +99,8 @@ N-Drew25	- Selkath Xbox Voice Files
 PapaZinos	- Various Level Model Fixes
 SithHolocron	- Nar Shaddaa Docks' Computer and Monitor Upgrade and Animated Swoop Monitors
 zbyl2		- Advice & Help finding files that do stuff in TSLRCM.
-th3w1zard1	- various updates to pykotor that helped with the installers for the project.
+Cortisol	- PyKotOR itself.
+th3w1zard1	- various updates to PyKotOR that helped with the installers for the project.
 
 many more and a big shout out to everyone that has supported the project on the Discord channel.
 
