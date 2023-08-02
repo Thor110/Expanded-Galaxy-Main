@@ -62,10 +62,12 @@ echo %Install%|findstr /r "[^0-9]" && (
   goto :INPUT
 )
 if %Install% gtr 3  (
+  cls
   echo enter a number between 1 and 3
   goto :INPUT
 )
 if %Install% lss 1 (
+  cls
   echo enter a number between 1 and 3
   goto :INPUT
 )
