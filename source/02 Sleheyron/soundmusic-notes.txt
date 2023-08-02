@@ -1,3 +1,0 @@
-some sound references in the .git files are wrong for hard overwrite installs, but corrected in the changes.ini
-
-might be worth fixing them manually anyway, for the sake of any hard overwrite installs.
