@@ -6,12 +6,14 @@ v1.1.8 has been fully refactored and will require a full reinstall.
 
 Installation Instructions
 
-This Mod is also intended for use in conjunction with the following three mods. -> TSLRCM(2) & M478EP(3) & Coruscant(4)
+This Mod is also intended for use in conjunction with the following three mods. -> TSLRCM(Step 2) & M478EP(Step 3) & Coruscant(Step 4)
+
+Steps
 
 0. 1.0B Patch "sw_pc_english_from200424_to210427.exe" ( GoG & Steam Users Can Skip This Step )
 https://www.moddb.com/games/star-wars-knights-of-the-old-republic-ii/downloads/patch-1-0b-us
 
-1. Aspyr Patched Files ( Optional ) ( Steam Users Must Skip This Step )
+1. Aspyr Patched Files ( Optional for GoG & Disc Users ) ( Steam Users Must Skip This Step )
 https://www.gog.com/forum/star_wars_knights_of_the_old_republic_series/kotor_ii_drmfree_steam_update/page1
 
 2. The Sith Lords Restored Content Modification v1.8.6 - Installed via "tslrcm2022.exe"
