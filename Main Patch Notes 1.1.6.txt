@@ -1,4 +1,0 @@
-TLK Line 136388 Updated "Terrain: Cityscape" for Sleheyron entry.
-Broken cutscene on Peragus fixed. - a_con_atton_end.ncs
-001ebo3 added back to the visibility list for 001ebo5 which previously resulted in a room not being visible during the tutorial level.
-PyKotor Installer and batch script made.
