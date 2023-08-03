@@ -1,6 +1,6 @@
 Expanded Galaxy Project v1.1.8 for Knights of the Old Republic II by Thor110
 
-v1.1.8 has been fully refactored and will possibly require a full reinstall.
+v1.1.8 has been fully refactored and will require a full reinstall.
 
 <----------------------------------------------------------------------------------------------------------->
 
