@@ -126,6 +126,8 @@ ERFEdit - https://deadlystream.com/files/file/499-erfedit/ @Fair Strides
 DLG Editorhttps://deadlystream.com/files/file/750-dlg-editor/ @Fair Strides
 Xoreos Tools - https://github.com/xoreos/xoreos-tools @Xoreos
 DENCS Script Decompiler - https://deadlystream.com/topic/3003-starwarsknightscom-down/?tab=comments#comment-30625 @Fair Strides
+PyKotOR - https://github.com/NickHugi/PyKotor @Cortisol
+PyKotORCLI - https://github.com/th3w1zard1/PyKotor/ @th3w1zard1
 
 K2 Console - https://deadlystream.com/files/file/1724-k2console-a-console-for-kotor-2/ @lachjames ( Included with the Expanded Galaxy Project )
 KotOR Save Importer For TSL - https://deadlystream.com/files/file/1726-kotor-save-importer-for-tsl/ @lachjames ( Included with the Expanded Galaxy Project )
