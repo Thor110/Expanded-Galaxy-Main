@@ -1,7 +1,14 @@
 lips
 Modules
 Movies
-Override ( no .nss files or .2da files )
 StreamMusic
 StreamVoice
 dialog.tlk
+
+Override ( no .nss files or .2da files )
+
+.nss files go into the "source" folder, alongside this file.
+EXCEPT any scripts named "k_inc_*.nss" * for anything, as these are include scripts and their source is required.
+
+unmodified .2da files are present in the tslpatchdata folder for PyKotOR or TSLPatcher to compare against the changes.ini
+
