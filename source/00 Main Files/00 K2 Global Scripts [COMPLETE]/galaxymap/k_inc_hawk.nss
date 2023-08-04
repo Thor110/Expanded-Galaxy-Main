@@ -243,7 +243,7 @@ void SetBackground()
         }break;
         case 2://262TEL
         {
-            nRoomAnimation = ANIMATION_ROOM_SCRIPTLOOP03;//ACADEMY
+            nRoomAnimation = ANIMATION_ROOM_SCRIPTLOOP19;//ACADEMY
         }break;
         case 3://301NAR
         {
