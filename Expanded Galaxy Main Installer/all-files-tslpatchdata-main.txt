@@ -1,5 +1,5 @@
 lips
-Modules
+Modules ( all *.mod files only, not the folders )
 Movies
 StreamMusic
 StreamVoice
