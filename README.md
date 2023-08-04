@@ -1,4 +1,5 @@
 # Expanded-Galaxy-Main
+Expanded Galaxy : Main
 
 Expanded Galaxy is a mod that adds TSL + Extra planets and a bunch of fixes / changes / additions.
 
