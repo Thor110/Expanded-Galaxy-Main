@@ -12,5 +12,5 @@ Coruscant is showing Coruscant!!!
 
 Sleheyron is showing Peragus II background in the cockpit
 Manaan is showing the grey test room!!! ( use this for a training scenario mod or something if there is an extra anim slot )
-Lehon is showing Telos : Polar Academy!!!
-Yavin Station is showing a white texture!!!
+Lehon is showing Telos : Polar Academy!!! LEH_unsky???
+Yavin Station is showing the yellow test room!!! LEH_09sky.tga
