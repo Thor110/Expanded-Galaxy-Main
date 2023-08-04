@@ -17,7 +17,7 @@ Rem KOTOR2 GOG
 reg query HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\Games\1421404581 /v PATH /s
 if %errorlevel% equ 0 (
   echo Hello World! Good old Games User!
-  FOR /F "tokens=2* skip=2" %%a in ('reg query "HKLM\SSOFTWARE\GOG.com\Games\1421404581" /v "PATH"') do set mykey2=%%b
+  FOR /F "tokens=2* skip=2" %%a in ('reg query "HKLM\SOFTWARE\GOG.com\Games\1421404581" /v "PATH"') do set mykey2=%%b
 ) else (
   Rem echo "kotor 2 gog registry entry not detected!"
 )
