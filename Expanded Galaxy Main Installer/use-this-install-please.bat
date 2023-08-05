@@ -97,8 +97,6 @@ echo Installing Expanded Galaxy Project
 
 tslpatchdata\pykotorcli.exe "%mykey%" "%cd%"
 
-cls
-
 echo Star Wars : Knights of the Old Republic II Expanded Galaxy Main Project Installation Completed!
 
 pause
