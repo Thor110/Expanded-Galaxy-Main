@@ -6,7 +6,7 @@ StreamMusic
 StreamVoice
 dialog.tlk
 
-Override ( no .nss files or .2da files )
+Override ( no .nss files except "k_inc_*.nss" scripts )
 
 .nss files go into the "source" folder, alongside this file.
 EXCEPT any scripts named "k_inc_*.nss" * for anything, as these are include scripts and their source is required.
