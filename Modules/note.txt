@@ -1,3 +1,21 @@
 ; the above entries in k2 and all k2 modules need to be updated to have k2 music...
 
 ; from the port, all new levels in TSL EG need to use some selected K2 music...
+
+; Yavin
+
+; Sleheyron
+
+; Manaan
+
+; Tatooine
+
+; Kashyyyk
+
+; Unknown World
+
+; Dantooine can use K2 Dantooine sounds! copy from existing .git entries...
+
+; alterntively create a patch that has an installer like the port that copies the files required and updates the .git entries...
+
+; 
