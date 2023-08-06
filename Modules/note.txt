@@ -2,20 +2,21 @@
 
 ; from the port, all new levels in TSL EG need to use some selected K2 music...
 
-; Yavin
+; for Yavin use Telos Entries!
 
-; Sleheyron
+; for Sleheyron use Korriban Entries!
 
-; Manaan
+; for Manaan use Coruscant Entries!
 
-; Tatooine
+; for Tatooine use Dantooine Entries!
 
-; Kashyyyk
+; for Kashyyyk use Dxun Entries!
 
-; Unknown World
+; for the Unknown World use Onderon Entries!
 
-; Dantooine can use K2 Dantooine sounds! copy from existing .git entries...
+; for Dantooine use K2 Dantooine Entries!
+
+; copy from existing .git entries...
 
 ; alterntively create a patch that has an installer like the port that copies the files required and updates the .git entries...
 
-; 
