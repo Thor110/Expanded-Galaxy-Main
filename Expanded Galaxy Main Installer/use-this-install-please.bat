@@ -95,8 +95,8 @@ if exist "%mykey%\chitin.key" (
 
 echo Installing Expanded Galaxy Project
 
-copy /y "main-patch-notes.rtf" "%mykeyB%\main-patch-notes.rtf"
-copy /y "main-readme.rtf" "%mykeyB%\main-readme.rtf"
+copy /y "main-patch-notes.rtf" "%mykey%\main-patch-notes.rtf"
+copy /y "main-readme.rtf" "%mykey%\main-readme.rtf"
 
 tslpatchdata\pykotorcli.exe "%mykey%" "%cd%"
 
