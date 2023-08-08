@@ -95,10 +95,10 @@ if exist "%mykey%\chitin.key" (
 
 echo Installing Expanded Galaxy Project
 
+tslpatchdata\pykotorcli.exe "%mykey%" "%cd%"
+
 copy /y "main-patch-notes.rtf" "%mykey%\main-patch-notes.rtf"
 copy /y "main-readme.rtf" "%mykey%\main-readme.rtf"
-
-tslpatchdata\pykotorcli.exe "%mykey%" "%cd%"
 
 echo Star Wars : Knights of the Old Republic II Expanded Galaxy Main Project Installation Completed!
 
