@@ -1,7 +1,0 @@
-Diff this folders contents against the original files with ChangeEdit into a changes.ini file.
-
-Then transfer it to the main changes.ini file.
-
-Also need to diff the k2 modules contents against a Coruscant install's version, to check what does and doesn't match.
-
-So as to reduce all file changes to an instruction set, except for newly created modules and source scripts.
