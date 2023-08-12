@@ -1,22 +1,13 @@
-; the above entries in k2 and all k2 modules need to be updated to have k2 music...
+all k1 levels need their music set to something from k2
 
-; from the port, all new levels in TSL EG need to use some selected K2 music...
+00 Yavin
+01 Sleheyron
+02 Manaan
+03 Tatooine
+04 Kashyyyk
+05 Unknown World
+06 Dantooine
+07 Mystery Box
 
-; for Yavin use Telos Entries!
-
-; for Sleheyron use Korriban Entries!
-
-; for Manaan use Coruscant Entries!
-
-; for Tatooine use Dantooine Entries!
-
-; for Kashyyyk use Dxun Entries!
-
-; for the Unknown World use Onderon Entries!
-
-; for Dantooine use K2 Dantooine Entries!
-
-; copy from existing .git entries...
-
-; alterntively create a patch that has an installer like the port that copies the files required and updates the .git entries...
+these folders and levels
 
