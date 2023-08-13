@@ -51,7 +51,6 @@ if defined mykey3 (
 setlocal disabledelayedexpansion
 
 if %temp% equ 1 goto :INSTALL
-
 :INPUT
 echo Please enter which install of the second game to use.
 echo Disc Version = 1
@@ -71,7 +70,6 @@ if %Install% lss 1 (
   echo enter a number between 1 and 3
   goto :INPUT
 )
-
 if %Install% == 1 set mykey=%mykey1%
 if %Install% == 2 set mykey=%mykey2%
 if %Install% == 3 set mykey=%mykey3%
@@ -82,9 +80,7 @@ if not defined mykey (
 )
 
 cls
-
 :INSTALL
-
 if exist "%mykey%\chitin.key" (
   echo Star Wars : Knights of the Old Republic II Installation Detected!
 ) else (
@@ -95,10 +91,10 @@ if exist "%mykey%\chitin.key" (
 
 echo Installing Expanded Galaxy Project
 
-tslpatchdata\pykotorcli.exe "%mykey%" "%cd%"
-
 copy /y "main-patch-notes.rtf" "%mykey%\main-patch-notes.rtf"
 copy /y "main-readme.rtf" "%mykey%\main-readme.rtf"
+
+tslpatchdata\pykotorcli.exe "%mykey%" "%cd%"
 
 echo Star Wars : Knights of the Old Republic II Expanded Galaxy Main Project Installation Completed!
 
