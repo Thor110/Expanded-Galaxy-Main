@@ -677,13 +677,13 @@ ModLink = ["https://github.com/Thor110/Expanded-Galaxy-Main"]
 [[thisMod.Instructions]]
 Action = "Extract"
 Overwrite = true
-Source = ["<<modDirectory>>\\Expanded.Galaxy.Main.v1.1.9.7z"]
+Source = ["<<modDirectory>>\\Expanded.Galaxy.Main.v*.7z"]
 
 [[thisMod.Instructions]]
 Action = "TSLPatcher"
 Destination = "<<kotorDirectory>>"
 Overwrite = true
-Source = ["<<modDirectory>>\\Expanded.Galaxy.Main.v1.1.9\\Expanded Galaxy Main v1.1.9\\use-this-install-please.bat"]
+Source = ["<<modDirectory>>\\Expanded.Galaxy.Main.v*\\Expanded Galaxy Main v*\\use-this-install-please.bat"]
 
 
 [[thisMod]]
@@ -699,13 +699,13 @@ ModLink = ["https://github.com/Thor110/Expanded-Galaxy-Port"]
 [[thisMod.Instructions]]
 Action = "Extract"
 Overwrite = true
-Source = ["<<modDirectory>>\\Expanded.Galaxy.Port.v1.1.9.7z"]
+Source = ["<<modDirectory>>\\Expanded.Galaxy.Port.v*.7z"]
 
 [[thisMod.Instructions]]
 Action = "TSLPatcher"
 Destination = "<<kotorDirectory>>"
 Overwrite = true
-Source = ["<<modDirectory>>\\Expanded.Galaxy.Port.v1.1.9\\Expanded Galaxy Port v1.1.9\\use-this-install-please.bat"]
+Source = ["<<modDirectory>>\\Expanded.Galaxy.Port.v*\\Expanded Galaxy Port v*\\use-this-install-please.bat"]
 
 
 [[thisMod]]
@@ -721,12 +721,12 @@ ModLink = ["https://github.com/Thor110/Expanded-Galaxy-Port"]
 [[thisMod.Instructions]]
 Action = "Extract"
 Overwrite = true
-Source = ["<<modDirectory>>\\Expanded.Galaxy.Port.v1.1.9.7z"]
+Source = ["<<modDirectory>>\\Expanded.Galaxy.Port.v*.7z"]
 
 [[thisMod.Instructions]]
 Action = "TSLPatcher"
 Destination = "<<kotorDirectory>>"
 Overwrite = true
-Source = ["<<modDirectory>>\\Expanded.Galaxy.Port.v1.1.9\\Expanded Galaxy Port v1.1.9\\use-this-install-please.bat"]
+Source = ["<<modDirectory>>\\Expanded.Galaxy.Port.v*\\Expanded Galaxy Port v*\\use-this-install-please.bat"]
 
 
