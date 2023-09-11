@@ -50,6 +50,7 @@ if defined mykey3 (
 
 setlocal disabledelayedexpansion
 
+if %temp% equ 0 goto :MANUAL
 if %temp% equ 1 goto :INSTALL
 :INPUT
 echo Please enter which install of the second game to use.
@@ -78,14 +79,18 @@ if not defined mykey (
   echo Input incorrect or no installation of the game detected!
   goto :INPUT
 )
-
 cls
+goto :Install
+:MANUAL
+echo Please enter your game directory.
+set /p mykey="Enter your KotOR2 Directory: "
 :INSTALL
 if exist "%mykey%\chitin.key" (
   echo Star Wars : Knights of the Old Republic II Installation Detected!
 ) else (
   echo Star Wars : Knights of the Old Republic II Installation Not Detected!
   pause
+  goto :MANUAL
   exit
 )
 
