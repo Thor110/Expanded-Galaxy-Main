@@ -82,7 +82,7 @@ if not defined mykey (
 cls
 goto :Install
 :MANUAL
-echo Please enter your game directory.
+echo Failed to locate the registry entry, please enter your game directory manually.
 set /p mykey="Enter your KotOR2 Directory: "
 :INSTALL
 if exist "%mykey%\chitin.key" (
