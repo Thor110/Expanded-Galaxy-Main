@@ -4,11 +4,20 @@ title Star Wars : Knights of the Old Republic II : Expanded Galaxy Project Main 
 setlocal enabledelayedexpansion
 set temp = 0
 
-Rem KOTOR2 DISC
+Rem KOTOR2 DISC 64
 reg query HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\LucasArts\KotOR2 /v Path /s
 if %errorlevel% equ 0 (
   echo Hello World! Loyal fan & owner of a disc copy of the game!
   FOR /F "tokens=2* skip=2" %%a in ('reg query "HKLM\SOFTWARE\WOW6432Node\LucasArts\KotOR2" /v "Path"') do set mykey1=%%b
+) else (
+  Rem echo "kotor 2 disc registry entry not detected!"
+)
+
+Rem KOTOR2 DISC 32
+reg query HKEY_LOCAL_MACHINE\SOFTWARE\LucasArts\KotOR2 /v Path /s
+if %errorlevel% equ 0 (
+  echo Hello World! Loyal fan & owner of a disc copy of the game!
+  FOR /F "tokens=2* skip=2" %%a in ('reg query "HKLM\SOFTWARE\LucasArts\KotOR2" /v "Path"') do set mykey1=%%b
 ) else (
   Rem echo "kotor 2 disc registry entry not detected!"
 )
