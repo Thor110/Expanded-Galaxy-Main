@@ -67,7 +67,20 @@ Rem set /a "index+=1"
 
 :CaptureInput
 set /p choice=Please choose an option [1-%index%]
-
+echo %choice%|findstr /r "[^1-!index!]" && (
+  goto :FinalInput
+)
+if %choice% gtr !index! (
+  cls
+  echo Enter a number between 1 and !index!
+  goto :Process-Choice
+)
+if %choice% lss 1 (
+  cls
+  echo Enter a number between 1 and !index!
+  goto :Process-Choice
+)
+:FinalInput
 :: Check if user chose manual input
 if "%choice%"=="%manualIndex%" (
     set /p chosenPath=Enter your manual path: 
