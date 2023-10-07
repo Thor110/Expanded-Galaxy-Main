@@ -25,6 +25,14 @@ set "regKey=%~1"
 for /f "tokens=2*" %%a in ('reg query "%regKey%" /v InstallLocation 2^>nul') do (
     set "resolvedPath=%%b"
 )
+
+:: If InstallLocation not found, check Path
+if not defined resolvedPath (
+    for /f "tokens=2*" %%a in ('reg query "%regKey%" /v Path 2^>nul') do (
+        set "resolvedPath=%%b"
+    )
+)
+
 if defined resolvedPath (
     echo %resolvedPath%
     exit /b 0
