@@ -40,7 +40,7 @@ set "title=%~1"
 set "regOptions=%~2"
 set "pathOptions=%~3"
 set "cmdlinePath=%~4"
-
+echo Please select the directory that you wish to install the mod to:
 :: Display choices to the user
 set "index=1"
 for %%A in (%regOptions%) do (
@@ -90,10 +90,6 @@ if "%choice%"=="%manualIndex%" (
 )
 set "chosenPath=%chosenPath:"=%"   :: Remove quotes if they exist
 
-:: Store the path
-echo User chose index: !choice!
-echo User chose: "!chosenPath!"
-
 call :Check-Folder "!chosenPath!"
 if !ERRORLEVEL! equ 0 (
     echo Check for chitin.key - success
@@ -119,11 +115,8 @@ set "KOTOR2PathOptions=C:\Program Files\Steam\steamapps\common\Knights of the Ol
 
 call :Process-Choice "TSL" "%KOTOR2RegOptions%" "%KOTOR2PathOptions%" "%TSLPath%"
 
-
-echo.
 echo TSL Path chosen: !KOTORPaths!
 
-pause
 echo Installing Expanded Galaxy Project Main
 
 :: Call executable based on chosen path
@@ -131,6 +124,7 @@ if exist "tslpatchdata\pykotorcli.exe" (
     call "tslpatchdata\pykotorcli.exe" "%KOTORPaths%" "%cd%"
 	copy /y "main-patch-notes.rtf" "%KOTORPaths%\main-patch-notes.rtf"
 	copy /y "main-readme.rtf" "%KOTORPaths%\main-readme.rtf"
+	cls
     echo Star Wars : Knights of the Old Republic II Expanded Galaxy Main Project Installation Completed!
 ) else (
     echo An error occurred: Cannot find the executable 'pykotorcli.exe'
