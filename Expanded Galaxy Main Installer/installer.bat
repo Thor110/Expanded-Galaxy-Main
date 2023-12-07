@@ -129,7 +129,7 @@ echo Installing Expanded Galaxy Project Main
 
 :: Call executable based on chosen path
 if exist "tslpatchdata\holopatcher.exe" (
-    call "tslpatchdata\holopatcher.exe" "%KOTORPaths%" "%cd%"
+    call "tslpatchdata\holopatcher.exe" --game-dir="%KOTORPaths%" --tslpatchdata="%cd%" --install
 	copy /y "main-patch-notes.rtf" "%KOTORPaths%\main-patch-notes.rtf"
 	copy /y "main-readme.rtf" "%KOTORPaths%\main-readme.rtf"
 	cls
