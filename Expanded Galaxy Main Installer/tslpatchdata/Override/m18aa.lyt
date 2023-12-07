@@ -1,0 +1,15 @@
+#MAXLAYOUT ASCII
+filedependancy m18aa.max
+beginlayout
+   roomcount 5
+      m18aa_04a 370.0 465.0 75.0
+      m18aa_05a 516.371 465.0 75.0
+      m18aa_03a 270.0 465.0 75.0
+      m18aa_01a 70.0 465.0 75.0
+      m18aa_02a 170.0 465.0 75.0
+   trackcount 0
+   obstaclecount 0
+   doorhookcount 2
+      m18aa_04a door_2 0 284.33 33.1867 22.8947 -0.460974 0.0 0.0 0.887413
+      m18aa_04a door_03 0 379.23 134.39 23.4445 -0.792822 0.0 0.0 0.609453
+donelayout

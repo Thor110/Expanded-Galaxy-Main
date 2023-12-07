@@ -1,0 +1,13 @@
+all k1 levels need their music set to something from k2
+
+00 Yavin
+01 Sleheyron
+02 Manaan
+03 Tatooine
+04 Kashyyyk
+05 Unknown World
+06 Dantooine
+07 Mystery Box
+
+these folders and levels
+

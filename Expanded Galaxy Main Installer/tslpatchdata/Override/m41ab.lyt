@@ -1,0 +1,17 @@
+#MAXLAYOUT ASCII
+filedependancy m41ab.max
+beginlayout
+   roomcount 7
+      M41ab_06b 78.75 131.25 225.0
+      M41ab_04b 131.25 131.25 150.0
+      M41ab_05a 120.0 157.5 75.0
+      M41ab_05b 232.5 150.0 75.0
+      M41ab_05c 105.0 180.0 75.0
+      M41ab_04a 52.5 52.5 75.0
+      M41ab_06a 37.5 127.5 75.0
+   trackcount 0
+   obstaclecount 0
+   doorhookcount 2
+      M41ab_06a Door_01 0 51.9662 97.2331 4.8825 -0.152123 0.0 0.0 0.988361
+      M41ab_06a Door_02 0 53.3537 92.8306 4.8825 -0.152123 0.0 0.0 0.988362
+donelayout

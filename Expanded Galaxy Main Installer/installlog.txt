@@ -1,0 +1,21 @@
+[Note] [16:48:51] Loading [Settings] section from ini...
+[Note] [16:48:51] Loading [TLKList] patches from ini...
+[Note] [16:48:51] Loading [InstallList] patches from ini...
+[Error] [16:48:52] The installation was aborted with errors
+Traceback (most recent call last):
+  File "C:\users\boden\Documents\GitHub\PyKotor\Tools\HoloPatcher\src\__main__.py", line 755, in begin_install_thread
+    self._execute_mod_install(installer)
+  File "C:\users\boden\Documents\GitHub\PyKotor\Tools\HoloPatcher\src\__main__.py", line 814, in _execute_mod_install
+    installer.install()
+  File "C:\users\boden\Documents\GitHub\PyKotor\Libraries\PyKotor\src\pykotor\tslpatcher\patcher.py", line 323, in install
+    config = self.config()
+  File "C:\users\boden\Documents\GitHub\PyKotor\Libraries\PyKotor\src\pykotor\tslpatcher\patcher.py", line 88, in config
+    self._config.load(ini_text, self.mod_path, self.log)
+  File "C:\users\boden\Documents\GitHub\PyKotor\Libraries\PyKotor\src\pykotor\tslpatcher\config.py", line 90, in load
+    ConfigReader(ini, mod_path, logger).load(self)
+  File "C:\users\boden\Documents\GitHub\PyKotor\Libraries\PyKotor\src\pykotor\tslpatcher\reader.py", line 176, in load
+    self.load_install_list()
+  File "C:\users\boden\Documents\GitHub\PyKotor\Libraries\PyKotor\src\pykotor\tslpatcher\reader.py", line 239, in load_install_list
+    for key2, filename in folder_section_dict.items():
+RuntimeError: dictionary changed size during iteration
+

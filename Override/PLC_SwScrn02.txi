@@ -1,8 +1,0 @@
-proceduretype cycle
-defaultwidth 512
-defaultheight 512
-numx 22
-numy 1
-fps 1
-#blending additive
-#decal 1

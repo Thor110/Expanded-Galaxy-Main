@@ -1,0 +1,5 @@
+proceduretype cycle
+#defaultwidth 1024
+#defaultheight 1024
+#blending additive
+#decal 1
