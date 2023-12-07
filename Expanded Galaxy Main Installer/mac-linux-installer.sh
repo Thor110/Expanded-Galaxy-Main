@@ -78,11 +78,11 @@ read -p "Press [Enter] to continue..."
 echo "Installing Expanded Galaxy Project Main"
 
 # Call executable based on chosen path
-if [[ -f "$KOTORPaths/tslpatchdata/pykotorcli_linux" ]]; then
-    "$KOTORPaths/tslpatchdata/pykotorcli_linux" "$KOTORPaths" "$(pwd)"
+if [[ -f "$KOTORPaths/tslpatchdata/holopatcher_linux" ]]; then  # change to HoloPatcher.app if using mac.
+    "$KOTORPaths/tslpatchdata/holopatcher_linux" "$KOTORPaths" "$(pwd)"
     echo "Star Wars : Knights of the Old Republic II Expanded Galaxy Main Project Installation Completed!"
 else
-    echo "An error occurred: Cannot find the executable 'pykotorcli_linux'"
+    echo "An error occurred: Cannot find the executable 'holopatcher_linux'"
     exit 2
 fi
 

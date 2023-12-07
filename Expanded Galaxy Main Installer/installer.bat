@@ -128,14 +128,14 @@ echo TSL Path chosen: !KOTORPaths!
 echo Installing Expanded Galaxy Project Main
 
 :: Call executable based on chosen path
-if exist "tslpatchdata\pykotorcli.exe" (
-    call "tslpatchdata\pykotorcli.exe" "%KOTORPaths%" "%cd%"
+if exist "tslpatchdata\holopatcher.exe" (
+    call "tslpatchdata\holopatcher.exe" "%KOTORPaths%" "%cd%"
 	copy /y "main-patch-notes.rtf" "%KOTORPaths%\main-patch-notes.rtf"
 	copy /y "main-readme.rtf" "%KOTORPaths%\main-readme.rtf"
 	cls
     echo Star Wars : Knights of the Old Republic II Expanded Galaxy Main Project Installation Completed!
 ) else (
-    echo An error occurred: Cannot find the executable 'pykotorcli.exe'
+    echo An error occurred: Cannot find the executable 'holopatcher.exe'
     exit /b 2
 )
 pause
