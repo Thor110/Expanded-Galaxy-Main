@@ -11,3 +11,4 @@ all k1 levels need their music set to something from k2
 
 these folders and levels
 
+note : they get set to the music from k1 IF the port is installed
