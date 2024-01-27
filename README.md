@@ -13,8 +13,6 @@ Movies - the necessary movie files from KotOR1 for the planets added to TSL in E
 
 Override - the contents of the Override folder.
 
-StreamMusic - the contents of the StreamMusic folder.
-
 StreamVoice - the contents of the StreamVoice folder.
 
 Test - some old dialog files that I should diff at some point. [TO BE DELETED EVENTUALLY]
