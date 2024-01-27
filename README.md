@@ -5,8 +5,6 @@ Expanded Galaxy is a mod that adds the planets from the first game and a bunch o
 
 ## Repository folder and file structure
 # Folders
-00 Manual Install - leftover files from the manual install version of the game that I need to double / triple check before deleting. [TO BE DELETED EVENTUALLY]
-
 Expanded Galaxy Main Installer - the main installer folder containing the source folder and tslpatchdata folder as well as the installer scripts.
 
 Modules - contains the level files organised into folders denoting the planet and module names as well as the .mod files themselves, I use this to quickly and easily repack levels.
@@ -14,8 +12,6 @@ Modules - contains the level files organised into folders denoting the planet an
 Movies - the necessary movie files from KotOR1 for the planets added to TSL in Expanded Galaxy.
 
 Override - the contents of the Override folder.
-
-OverrideFilesToDiff - Some leftover files from prior to changing the project over to using HoloPatcher that I need to diff before deleting. [TO BE DELETED EVENTUALLY]
 
 StreamMusic - the contents of the StreamMusic folder.
 
