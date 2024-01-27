@@ -9,7 +9,7 @@ Expanded Galaxy is a mod that adds the planets from the first game and a bunch o
 
 99 Clutter - contains a note regarding what files or folders are used to create the release. [TO BE DELETED EVENTUALLY]
 
-Expanded Galaxy Main Installer - the main installer folder containing the source folder an tslpatchdata folder as well as the installer scripts.
+Expanded Galaxy Main Installer - the main installer folder containing the source folder and tslpatchdata folder as well as the installer scripts.
 
 Modules - contains the level files organised into folders denoting the planet and module names as well as the .mod files themselves, I use this to quickly and easily repack levels.
 
