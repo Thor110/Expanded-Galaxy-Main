@@ -8,8 +8,6 @@ set fld=Movies
 call :ADD
 set fld=Override
 call :ADD
-set fld=StreamMusic
-call :ADD
 
 md tslpatchdata
 for /r "Modules" %%x in (*.mod) do copy "%%x" "tslpatchdata\"
