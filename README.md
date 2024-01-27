@@ -15,8 +15,6 @@ Override - the contents of the Override folder.
 
 StreamVoice - the contents of the StreamVoice folder.
 
-Test - some old dialog files that I should diff at some point. [TO BE DELETED EVENTUALLY]
-
 # Files
 .gitattributes - the gitattributes file.
 
