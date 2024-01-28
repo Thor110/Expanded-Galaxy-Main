@@ -1,7 +1,5 @@
 In order to install the most up-to-date version, you must download the entire repository and then use create-release.bat to pack the relevant files into a 7z file and then unpack them, I will move files around and fix it so that this isn't the case soon.
 
-NOTE : This isn't actually working at the moment while I get the repository updated to use the latest version of HoloPatcher.
-
 # Expanded-Galaxy-Main
 Expanded Galaxy : Main
 
