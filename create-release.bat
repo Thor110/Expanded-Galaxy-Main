@@ -9,8 +9,6 @@ call :ADD
 
 md tslpatchdata
 for /r "Modules" %%x in (*.mod) do copy "%%x" "tslpatchdata\"
-for /r "StreamVoice" %%x in (*.wav) do copy "%%x" "tslpatchdata\"
-for /r "StreamVoice" %%x in (*.mp3) do copy "%%x" "tslpatchdata\"
 "C:\Program Files\7-Zip\7z.exe" a "%Build%.zip" "%cd%\tslpatchdata"
 rd /s /q tslpatchdata
 
