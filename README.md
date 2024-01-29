@@ -12,8 +12,6 @@
 *Hood*: Brotherhood of Shadow : Solomon's Revenge Expanded Galaxy
 
 # Expanded-Galaxy-Main
-Expanded Galaxy : Main
-
 Expanded Galaxy is a mod that adds the planets from the first game and a bunch of fixes / changes / additions.
 
 ## Repository folder and file structure
