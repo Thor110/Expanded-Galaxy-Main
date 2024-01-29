@@ -20,6 +20,8 @@ Expanded Galaxy Main Installer - the main installer folder containing the source
 
 Modules Source - contains the level files organised into folders denoting the planet and module names as well as the .mod files themselves, I use this to quickly and easily repack levels.
 
+Scripts Left To Decompile - scripts that haven't been decompiled yet exist here.
+
 # Files
 .gitattributes - the gitattributes file.
 
