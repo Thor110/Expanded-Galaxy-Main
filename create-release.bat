@@ -4,8 +4,6 @@ for /f "delims=" %%x in (version.txt) do set Build=main-v%%x
 
 "C:\Program Files\7-Zip\7z.exe" a "%Build%.zip" "%cd%\Expanded Galaxy Main Installer\*"
 
-set fld=Movies
-call :ADD
 set fld=Override
 call :ADD
 
