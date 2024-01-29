@@ -43,18 +43,22 @@ version.txt - the current version number.
 
 The following install order is *required* for Expanded Galaxy Main:
 
-1: (KOTOR 2 TSL)[https://store.steampowered.com/app/208580/STAR_WARS_Knights_of_the_Old_Republic_II__The_Sith_Lords/]
+1: (KOTOR 2 TSL) [https://store.steampowered.com/app/208580/STAR_WARS_Knights_of_the_Old_Republic_II__The_Sith_Lords/]
 
-2: (TSLRCM)[https://deadlystream.com/topic/3394-modtsl-restored-content-mod/]
+2. 1.0B Patch "sw_pc_english_from200424_to210427.exe" ( GoG & Steam Users Must Skip This Step ) [https://www.moddb.com/games/star-wars-knights-of-the-old-republic-ii/downloads/patch-1-0b-us]
 
-3: M4-78EP[https://deadlystream.com/files/file/277-m4-78-enhancement-project/]
+3. Aspyr Patched Files ( Optional for GoG & Disc Users ) ( Steam Users Must Skip This Step ) [https://www.gog.com/forum/star_wars_knights_of_the_old_republic_series/kotor_ii_drmfree_steam_update/page1]
 
-4: Coruscant[https://deadlystream.com/files/file/585-coruscant-jedi-temple-by-deathdisco/]
+4: TSLRCM [https://deadlystream.com/topic/3394-modtsl-restored-content-mod/]
 
-5: K2 Expanded Galaxy (the mod provided by this repo)
+5: M4-78EP [https://deadlystream.com/files/file/277-m4-78-enhancement-project/]
+
+6: Coruscant [https://deadlystream.com/files/file/585-coruscant-jedi-temple-by-deathdisco/]
+
+7: TSL Expanded Galaxy (Main) (the mod provided by this repo)
 
 ## Optional Add-ons
 
-6: (Port)[https://github.com/Thor110/Expanded-Galaxy-Port]
+8: KotOR Expanded Galaxy (Port) [https://github.com/Thor110/Expanded-Galaxy-Port]
 
-7: Brotherhood[https://github.com/Thor110/Expanded-Galaxy-Hood]
+9: Brotherhood (Hood) [https://github.com/Thor110/Expanded-Galaxy-Hood]
