@@ -38,9 +38,9 @@ The following install order is *required* for Expanded Galaxy Main:
 
 1: (KotOR 2 TSL) [https://store.steampowered.com/app/208580/STAR_WARS_Knights_of_the_Old_Republic_II__The_Sith_Lords/]
 
-2. 1.0B Patch "sw_pc_english_from200424_to210427.exe" ( GoG & Steam Users Must Skip This Step ) [https://www.moddb.com/games/star-wars-knights-of-the-old-republic-ii/downloads/patch-1-0b-us]
+2: 1.0B Patch "sw_pc_english_from200424_to210427.exe" ( GoG & Steam Users Must Skip This Step ) [https://www.moddb.com/games/star-wars-knights-of-the-old-republic-ii/downloads/patch-1-0b-us]
 
-3. Aspyr Patched Files ( Optional for GoG & Disc Users ) ( Steam Users Must Skip This Step ) [https://www.gog.com/forum/star_wars_knights_of_the_old_republic_series/kotor_ii_drmfree_steam_update/page1]
+3: Aspyr Patched Files ( Optional for GoG & Disc Users ) ( Steam Users Must Skip This Step ) [https://www.gog.com/forum/star_wars_knights_of_the_old_republic_series/kotor_ii_drmfree_steam_update/page1]
 
 4: TSLRCM [https://deadlystream.com/topic/3394-modtsl-restored-content-mod/]
 
