@@ -3,6 +3,8 @@
 
 *K2/KotOR2/TSL*: Knights of the Old Republic 2: The Sith Lords
 
+*BoS/BoSSR*: Brotherhood of Shadow: Solomon's Revenge
+
 *Main*: TSL Expanded Galaxy
 
 *Port*: KotOR Expanded Galaxy
