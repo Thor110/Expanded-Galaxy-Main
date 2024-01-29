@@ -1,7 +1,7 @@
 ## Terms to know right off the bat:
-*K1/KOTOR1*: Knights of the Old Republic 1
+*K1/KotOR1*: Knights of the Old Republic 1
 
-*K2/KOTOR2/TSL*: Knights of the Old Republic 2: The Sith Lords
+*K2/KotOR2/TSL*: Knights of the Old Republic 2: The Sith Lords
 
 *Main*: TSL Expanded Galaxy
 
@@ -36,7 +36,7 @@ version.txt - the current version number.
 ## Installation
 The following install order is *required* for Expanded Galaxy Main:
 
-1: (KOTOR 2 TSL) [https://store.steampowered.com/app/208580/STAR_WARS_Knights_of_the_Old_Republic_II__The_Sith_Lords/]
+1: (KotOR 2 TSL) [https://store.steampowered.com/app/208580/STAR_WARS_Knights_of_the_Old_Republic_II__The_Sith_Lords/]
 
 2. 1.0B Patch "sw_pc_english_from200424_to210427.exe" ( GoG & Steam Users Must Skip This Step ) [https://www.moddb.com/games/star-wars-knights-of-the-old-republic-ii/downloads/patch-1-0b-us]
 
