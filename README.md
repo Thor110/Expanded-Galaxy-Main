@@ -27,7 +27,7 @@ Modules Source - contains the level files organised into folders denoting the pl
 
 update-modules.bat - A batch file used for updating the .mod files inside the "Expanded Galaxy Main Installer\tslpatchdata\modules" directory using those from the "Modules Source" folder.
 
-KotOR2-Expanded-Galaxy.toml - a .toml file for KotORModSync.
+KotOR2-Expanded-Galaxy.toml - a .toml file for KotORModSync. [https://github.com/th3w1zard1/KOTORModSync]
 
 README.md - the readme.md file.
 
