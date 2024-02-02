@@ -63,6 +63,7 @@ int sub1() {
 }
 
 void main() {
+    int int12 = sub1();
     if (GetGlobalNumber("003EBO_Atton_Talk") <= 4) {
         object oPC = GetFirstPC();
         AssignCommand(oPC, ClearAllActions());
@@ -179,10 +180,11 @@ void main() {
     }
     else { 
         // After Peragus Before Telos
+        int12 = 5;
         SetPlanetAvailable(PLANET_HARBINGER, TRUE); // HARBINGER IS TELOS : CITADEL STATION
         SetPlanetSelectable(PLANET_HARBINGER, TRUE); //
         SetPlanetAvailable(PLANET_MALACHOR_V, TRUE); // MALACHOR_V is a spare planet space - now peragus - spare for future use
-        SetPlanetSelectable(PLANET_MALACHOR_V, TRUE);
+        SetPlanetSelectable(PLANET_MALACHOR_V, FALSE); // PERAGUS WAS SELECTABLE WHILE TRAVELLING TO TELOS - is no longer
         //SetPlanetAvailable(PLANET_EBON_HAWK, TRUE);// EBON_HAWK IS MALACHOR_V
         //SetPlanetSelectable(PLANET_EBON_HAWK, TRUE);
         //SetPlanetAvailable(PLANET_PERAGUS, TRUE);// PERAGUS IS SLEHEYRON
@@ -220,7 +222,6 @@ void main() {
       SetPlanetAvailable(PLANET_EBON_HAWK, FALSE);
       SetPlanetSelectable(PLANET_EBON_HAWK, FALSE); 
     }
-    int int12 = sub1();
     
     // ST: In Space or Hyperspace
     if ((GetGlobalNumber("003EBO_BACKGROUND") == 8) || (GetGlobalNumber("003EBO_BACKGROUND") == 10)) {
