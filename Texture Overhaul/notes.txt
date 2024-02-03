@@ -1,5 +1,5 @@
 the lists in this folder contain a list of all tga and tpc textures that are currently included in the main project.
 
-so it won't list some of the base game textures.
+so it won't list any of the base games textures.
 
 but it does include many textures required for the port.
