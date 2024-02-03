@@ -22,6 +22,8 @@ Modules Source - contains the level files organised into folders denoting the pl
 
 Scripts Left To Decompile - scripts that haven't been decompiled yet exist here.
 
+Texture Overhaul - the beginnings of a set of lists that will eventually be used as a basis for working on a texture overhaul for the project.
+
 # Files
 .gitattributes - the gitattributes file.
 
