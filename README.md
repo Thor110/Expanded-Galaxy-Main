@@ -5,11 +5,11 @@
 
 *BoS/BoSSR*: Brotherhood of Shadow: Solomon's Revenge
 
-*Main*: TSL Expanded Galaxy
+*Main*: TSL: Expanded Galaxy
 
-*Port*: KotOR Expanded Galaxy
+*Port*: KotOR: Expanded Galaxy
 
-*Hood*: Brotherhood of Shadow : Solomon's Revenge Expanded Galaxy
+*Hood*: Brotherhood of Shadow: Solomon's Revenge: Expanded Galaxy
 
 # Expanded Galaxy Main
 Expanded Galaxy is a mod that adds the planets from the first game and a bunch of fixes / changes / additions.
