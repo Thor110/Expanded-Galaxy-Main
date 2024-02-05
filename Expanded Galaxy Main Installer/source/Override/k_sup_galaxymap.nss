@@ -168,15 +168,15 @@ void main()
             SetGlobalBoolean("CARTH_SCENE", FALSE);
         }
         // play extra hyperspace movie after polar academy
-        if (GetGlobalBoolean("LEAVING_POLAR") == TRUE)
+        if (GetGlobalBoolean("LEAVING_POLAR") == TRUE && GetGlobalBoolean("LEFT_POLAR") == FALSE)
         {
             SetGlobalNumber("003EBO_RETURN_DEST",8);//
             SetGlobalNumber("003EBO_BACKGROUND",10);//
             QueueMovie("HypMov01");
-            SetGlobalBoolean("LEAVING_POLAR", FALSE);
+            SetGlobalBoolean("LEFT_POLAR", TRUE);
         }
         // play extra hyperspace movie after end of the game
-        if (GetGlobalNumber("GBL_GAME_COMPLETE") <= 1) // not used at the moment
+        /*if (GetGlobalNumber("GBL_GAME_COMPLETE") <= 1) // not used at the moment
         {
             SetGlobalBoolean("999EBO_Entered",TRUE);
             if (GetGlobalBoolean("999EBO_Entered") == TRUE)
@@ -190,7 +190,7 @@ void main()
                   SetGlobalBoolean("999EBO_Exited",TRUE);
                 }
             }
-        }
+        }*/
     // queue up leaving movie
     switch(GetGlobalNumber("003EBO_BACKGROUND"))
     {

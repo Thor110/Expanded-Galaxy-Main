@@ -103,9 +103,11 @@ void main() {
   {
     if (GetGlobalBoolean("LEAVING_POLAR") == 0)// Set to false if you haven't left yet.
     {
-      SetGlobalBoolean("LEAVING_POLAR",1);// Set to true if you have left.
       SetGlobalNumber("003EBO_BACKGROUND",1);// To ensure int12 is set correctly after using the galaxy map and not travelling anywhere. Example : selecting Peragus.
+      //SetGlobalNumber("003EBO_RETURN_DEST",8);//
+      //SetGlobalNumber("003EBO_BACKGROUND",10);//
       int12=10;
+      SetGlobalBoolean("LEAVING_POLAR",1);// Set to true if you have left.
     }
     for (nWorld = PLANET_DANTOOINE; nWorld < PLANET_LIVE_06; nWorld++)
     {
