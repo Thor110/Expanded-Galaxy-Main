@@ -48,7 +48,7 @@ The following install order is *required* for Expanded Galaxy Main:
 
 3: Aspyr Patched Files ( Optional for GoG & Disc Users ) ( Steam Users Must Skip This Step ) [https://www.gog.com/forum/star_wars_knights_of_the_old_republic_series/kotor_ii_drmfree_steam_update/page1]
 
-4: TSLRCM [https://deadlystream.com/topic/3394-modtsl-restored-content-mod/]
+4: TSLRCM [https://deadlystream.com/files/file/578-tsl-restored-content-mod/]
 
 5: M4-78EP [https://deadlystream.com/files/file/277-m4-78-enhancement-project/]
 
