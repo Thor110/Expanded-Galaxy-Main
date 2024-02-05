@@ -3,3 +3,41 @@ the lists in this folder contain a list of all tga and tpc textures that are cur
 so it won't list any of the base games textures.
 
 but it does include many textures required for the port.
+
+
+tpc-list.txt
+
+the above files do not exist in swpc_tex_gui.bif or swpc_tex_tpa.bif
+
+
+exists-in-main-and-k2-base-files.txt
+
+the above file contains a list of textures that exist in the main project and in the base files for TSL
+
+and I cannot determine why I have them included
+
+these are the first five files from the list
+
+C_HK50.tga
+C_HK51.tga
+
+the above two have transparency where as the base games version of those files does not
+
+DAN_ivy01.tga
+DAN_ivy02.tga
+
+the above two are at a lower resolution than the base games files, but if I remove them they disappear from the level they appear in which is 605dan in the model 605dank.mdl
+I couldn't actually find a level or model that uses DAN_ivy02
+
+DAN_Wn02.tga
+
+the above file is identical to the one that exists in the base games files and when removed from the override causes no issues with the levels that it appears in the following models
+
+301nara.mdl
+301narg.mdl
+306nara.mdl
+306narb.mdl
+610dan_01.mdl
+
+
+
