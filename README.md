@@ -42,6 +42,8 @@ version.txt - the current version number.
 ## Installation
 The following install order is *required* for Expanded Galaxy Main:
 
+NOTE : Do not use the Steam Workshop for any mods when using this project.
+
 1: (KotOR 2 TSL) [https://store.steampowered.com/app/208580/STAR_WARS_Knights_of_the_Old_Republic_II__The_Sith_Lords/]
 
 2: 1.0B Patch "sw_pc_english_from200424_to210427.exe" ( GoG & Steam Users Must Skip This Step ) [https://www.moddb.com/games/star-wars-knights-of-the-old-republic-ii/downloads/patch-1-0b-us]
