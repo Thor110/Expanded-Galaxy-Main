@@ -64,41 +64,46 @@ int sub1() {
 
 void main() {
   int int12 = sub1();
-  if (GetGlobalNumber("003EBO_Atton_Talk") <= 4) {
+  if (GetGlobalNumber("003EBO_Atton_Talk") <= 4)
+  {
     object oPC = GetFirstPC();
     AssignCommand(oPC, ClearAllActions());
     AssignCommand(OBJECT_SELF, ActionStartConversation(oPC, "galaxy", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE));   
     return;
   }
-  else if (GetGlobalNumber("003EBO_RETURN_DEST") == 4) {
-    if (GetGlobalNumber("502OND_End_First") == 0) {
+  else if (GetGlobalNumber("003EBO_RETURN_DEST") == 4)
+  {
+    if (GetGlobalNumber("502OND_End_First") == 0)
+    {
       object oPC = GetFirstPC();
       AssignCommand(oPC, ClearAllActions());
       AssignCommand(OBJECT_SELF, ActionStartConversation(oPC, "galaxy2", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE));          
       return;
     }
   }
-  else if (GetGlobalNumber("003_IN_COMBAT") == 1) {
+  else if (GetGlobalNumber("003_IN_COMBAT") == 1)
+  {
     object oPC = GetFirstPC();
     AssignCommand(oPC, ClearAllActions());
     AssignCommand(OBJECT_SELF, ActionStartConversation(oPC, "galaxy", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE));           
     return;
   }
   int nWorld = 0;
-  for (nWorld = PLANET_DANTOOINE; nWorld < PLANET_LIVE_06; ++nWorld) {
+  /*for (nWorld = PLANET_DANTOOINE; nWorld < PLANET_LIVE_06; ++nWorld)
+  {
     SetPlanetAvailable(nWorld, FALSE);
     SetPlanetSelectable(nWorld, FALSE); 
-  }
-  if (GetGlobalNumber("900MAL_Open") == 1)
+  }*/
+  /*if (GetGlobalNumber("900MAL_Open") == 1) // This number variable can be cleansed.
   {
     for (nWorld = PLANET_DANTOOINE; nWorld < PLANET_LIVE_06; nWorld++)
     {
       int nPlanet = nWorld;
       SetPlanetAvailable(nPlanet, TRUE);
-      if (nWorld == PLANET_MALACHOR_V) 
+      if (nWorld == PLANET_MALACHOR_V) // MALACHOR_V IS PERAGUS
           SetPlanetSelectable(nPlanet, TRUE); 
     }       
-  }
+  }*/
   if (GetGlobalNumber("262TEL_Escape_Telos") == 1)
   {
     if (GetGlobalBoolean("LEAVING_POLAR") == 0)// Set to false if you haven't left yet.
@@ -112,9 +117,10 @@ void main() {
     for (nWorld = PLANET_DANTOOINE; nWorld < PLANET_LIVE_06; nWorld++)
     {
       int nPlanet = nWorld;
-      if (nWorld != PLANET_EBON_HAWK) {
+      if (nWorld != PLANET_EBON_HAWK) // EBON_HAWK IS MALACHOR_V
+      {
         SetPlanetAvailable(nPlanet, TRUE);
-        if (nWorld != PLANET_MALACHOR_V) 
+        if (nWorld != PLANET_MALACHOR_V) // MALACHOR_V IS PERAGUS
           SetPlanetSelectable(nPlanet, TRUE);
       }
     }
@@ -125,24 +131,24 @@ void main() {
     // Planetary index.
     SetPlanetAvailable(PLANET_HARBINGER, TRUE); // HARBINGER IS TELOS : CITADEL STATION
     SetPlanetSelectable(PLANET_HARBINGER, TRUE); //
-    SetPlanetAvailable(PLANET_MALACHOR_V, TRUE); // MALACHOR_V is now peragus
-    SetPlanetSelectable(PLANET_MALACHOR_V, FALSE); // PERAGUS WAS SELECTABLE WHILE TRAVELLING TO TELOS - is no longer
-        //SetPlanetAvailable(PLANET_EBON_HAWK, TRUE);// EBON_HAWK IS MALACHOR_V
-        //SetPlanetSelectable(PLANET_EBON_HAWK, TRUE);
-        //SetPlanetAvailable(PLANET_PERAGUS, TRUE);// PERAGUS IS SLEHEYRON
-        //SetPlanetSelectable(PLANET_PERAGUS, TRUE);//     
-        //SetPlanetAvailable(PLANET_TELOS, TRUE);// TELOS IS LEHON
-        //SetPlanetSelectable(PLANET_TELOS, TRUE);//   
-        //SetPlanetAvailable(PLANET_LIVE_01, TRUE); // LIVE_01 IS KASHYYYK
-        //SetPlanetSelectable(PLANET_LIVE_01, TRUE); 
-        //SetPlanetAvailable(PLANET_LIVE_02, TRUE); // LIVE_02 IS CORUSCANT
-        //SetPlanetSelectable(PLANET_LIVE_02, TRUE);  
-        //SetPlanetAvailable(PLANET_LIVE_03, TRUE); // LIVE_03 IS YAVIN
-        //SetPlanetSelectable(PLANET_LIVE_03, TRUE);   
-        //SetPlanetAvailable(PLANET_LIVE_04, TRUE); // LIVE_04 IS TATOOINE
-        //SetPlanetSelectable(PLANET_LIVE_04, TRUE);   
-        //SetPlanetAvailable(PLANET_LIVE_05, TRUE); // LIVE_05 IS MANAAN
-        //SetPlanetSelectable(PLANET_LIVE_05, TRUE);      // can PLANET_ONDERON be used?                  
+    SetPlanetAvailable(PLANET_MALACHOR_V, TRUE); // MALACHOR_V IS PERAGUS
+    SetPlanetSelectable(PLANET_MALACHOR_V, FALSE);
+    //SetPlanetAvailable(PLANET_EBON_HAWK, TRUE);// EBON_HAWK IS MALACHOR_V
+    //SetPlanetSelectable(PLANET_EBON_HAWK, TRUE);
+    //SetPlanetAvailable(PLANET_PERAGUS, TRUE);// PERAGUS IS SLEHEYRON
+    //SetPlanetSelectable(PLANET_PERAGUS, TRUE);//     
+    //SetPlanetAvailable(PLANET_TELOS, TRUE);// TELOS IS LEHON
+    //SetPlanetSelectable(PLANET_TELOS, TRUE);//   
+    //SetPlanetAvailable(PLANET_LIVE_01, TRUE); // LIVE_01 IS KASHYYYK
+    //SetPlanetSelectable(PLANET_LIVE_01, TRUE); 
+    //SetPlanetAvailable(PLANET_LIVE_02, TRUE); // LIVE_02 IS CORUSCANT
+    //SetPlanetSelectable(PLANET_LIVE_02, TRUE);  
+    //SetPlanetAvailable(PLANET_LIVE_03, TRUE); // LIVE_03 IS YAVIN
+    //SetPlanetSelectable(PLANET_LIVE_03, TRUE);   
+    //SetPlanetAvailable(PLANET_LIVE_04, TRUE); // LIVE_04 IS TATOOINE
+    //SetPlanetSelectable(PLANET_LIVE_04, TRUE);   
+    //SetPlanetAvailable(PLANET_LIVE_05, TRUE); // LIVE_05 IS MANAAN
+    //SetPlanetSelectable(PLANET_LIVE_05, TRUE);      // can PLANET_ONDERON be used?                  
   }
   if (GetGlobalNumber("401DXN_Visited") == 0) {
     SetPlanetAvailable(PLANET_DXUN, FALSE);
@@ -155,9 +161,9 @@ void main() {
     SetPlanetAvailable(PLANET_M4_78, FALSE);
 		SetPlanetSelectable(PLANET_M4_78, FALSE);
   }
-  if (GetGlobalNumber("852NIH_Nihilus_Dead") == 1)
+  if (GetGlobalNumber("852NIH_Nihilus_Dead") == 1) // This number variable can become a boolean.
   {
-    SetPlanetAvailable(PLANET_EBON_HAWK, TRUE);
+    SetPlanetAvailable(PLANET_EBON_HAWK, TRUE);// EBON_HAWK IS MALACHOR_V
     SetPlanetSelectable(PLANET_EBON_HAWK, TRUE); 
     if (GetGlobalNumber("GBL_GAME_COMPLETE") >= 1)
     {
@@ -167,7 +173,7 @@ void main() {
   }
   else
   {
-    SetPlanetAvailable(PLANET_EBON_HAWK, FALSE);
+    SetPlanetAvailable(PLANET_EBON_HAWK, FALSE);// EBON_HAWK IS MALACHOR_V
     SetPlanetSelectable(PLANET_EBON_HAWK, FALSE); 
   }
   // ST: In Space or Hyperspace // This was previously set to the Ebon Hawk when in hyperspace.
