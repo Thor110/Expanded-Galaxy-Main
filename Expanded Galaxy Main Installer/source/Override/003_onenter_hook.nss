@@ -11,9 +11,11 @@ void main(){
   if(GetGlobalNumber("EBO_MYSTERY_BOX")==0){
     DestroyObject(GetObjectByTag("EBO_MysteryBox"));
   }
-  /*if()
-  {
-    // Destroy the damaged section of the Ebon Hawk!
-    DestroyObject(GetObjectByTag("baoplace"));
-  }*/
+  if(GetGlobalBoolean("EH_REPAIR") == 1){
+		DestroyObject(GetObjectByTag("baoplace"));
+		DestroyObject(GetObjectByTag("baoplace2"));
+	}
+  if(GetGlobalBoolean("HK_DOOR") == 1){
+		DestroyObject(GetObjectByTag("CargoDoor",1));
+	}
 }
