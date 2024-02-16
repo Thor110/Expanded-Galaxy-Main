@@ -10,9 +10,8 @@
 *Port*: KotOR: Expanded Galaxy
 
 *Hood*: Brotherhood of Shadow: Solomon's Revenge: Expanded Galaxy
-<p align="center">
+
 # Expanded Galaxy Main
-</p>
 Expanded Galaxy is a mod that adds the planets from the first game and a bunch of fixes / changes / additions.
 
 ## Repository folder and file structure
