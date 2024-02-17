@@ -14,6 +14,8 @@
 # Expanded Galaxy Main
 Expanded Galaxy is a mod that adds the planets from the first game and a bunch of fixes / changes / additions.
 
+The current version is only compatible with the Steam version of the game or anyone that uses the Aspyr Patch, which can be installed to other versions of the game. ( see step 3 ) [https://github.com/Thor110/Expanded-Galaxy-Main?tab=readme-ov-file#installation]
+
 ## Repository folder and file structure
 # Folders
 Expanded Galaxy Main Installer - the main installer folder containing the source folder and tslpatchdata folder as well as HoloPatcher.
