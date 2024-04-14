@@ -18,11 +18,12 @@ void main() {
 		PlayMovie("TelMov04", 0);
 		StartNewModule("235TEL", "", "", "", "", "", "", "");
 	}
-	else {
-		if ((nParam1 == 2)) {
-			SetGlobalNumber("200TEL_Control", 2);
-			StartNewModule("261TEL", "from_201TEL", "", "", "", "", "", "");
-		}
-	}
+// Not used or ever called, probably leftover from testing.
+//	else {
+//		if ((nParam1 == 2)) {
+//			SetGlobalNumber("200TEL_Control", 2);
+//			StartNewModule("261TEL", "from_201TEL", "", "", "", "", "", "");
+//		}
+//	}
 }
 
