@@ -1,0 +1,12 @@
+beginlayout
+  roomcount 5
+    Hal01Gob 0 0 0
+    Hal02Gob 0 0 0
+    Hal03Gob 0 0 0
+    Hal04Gob 0 0 0
+    CrossGob 0 0 0
+  trackcount 0
+  obstaclecount 0
+  doorhookcount 0
+  othercount 0
+donelayout
