@@ -64,14 +64,14 @@ int sub1() {
 
 void main() {
   int int12 = sub1();
-  if (GetGlobalNumber("003EBO_Atton_Talk") <= 4)
+  if(GetGlobalNumber("003EBO_Atton_Talk") <= 4)
   {
     object oPC = GetFirstPC();
     AssignCommand(oPC, ClearAllActions());
     AssignCommand(OBJECT_SELF, ActionStartConversation(oPC, "galaxy", FALSE, CONVERSATION_TYPE_CINEMATIC, TRUE));   
     return;
   }
-  else if (GetGlobalNumber("003EBO_RETURN_DEST") == 4)
+  else if(GetGlobalNumber("003EBO_RETURN_DEST") == 4)
   {
     if (GetGlobalNumber("502OND_End_First") == 0)
     {
@@ -81,7 +81,7 @@ void main() {
       return;
     }
   }
-  else if (GetGlobalNumber("003_IN_COMBAT") == 1)
+  else if(GetGlobalNumber("003_IN_COMBAT") == 1)
   {
     object oPC = GetFirstPC();
     AssignCommand(oPC, ClearAllActions());
@@ -104,7 +104,7 @@ void main() {
           SetPlanetSelectable(nPlanet, TRUE); 
     }       
   }*/
-  if (GetGlobalNumber("262TEL_Escape_Telos") == 1)
+  if(GetGlobalNumber("262TEL_Escape_Telos") == 1)
   {
     if (GetGlobalBoolean("LEAVING_POLAR") == 0)// Set to false if you haven't left yet.
     {
@@ -125,47 +125,71 @@ void main() {
       }
     }
   }
-  else { 
+  else{ 
     // After Peragus Before Telos
     int12 = 5;
     // Planetary index.
-    SetPlanetAvailable(PLANET_HARBINGER, TRUE); // HARBINGER IS TELOS : CITADEL STATION
-    SetPlanetSelectable(PLANET_HARBINGER, TRUE); //
-    SetPlanetAvailable(PLANET_MALACHOR_V, TRUE); // MALACHOR_V IS PERAGUS
+    SetPlanetAvailable(PLANET_HARBINGER, TRUE);   // HARBINGER IS TELOS : CITADEL STATION
+    SetPlanetSelectable(PLANET_HARBINGER, TRUE);
+    SetPlanetAvailable(PLANET_MALACHOR_V, TRUE);  // MALACHOR_V IS PERAGUS
     SetPlanetSelectable(PLANET_MALACHOR_V, FALSE);
-    //SetPlanetAvailable(PLANET_EBON_HAWK, TRUE);// EBON_HAWK IS MALACHOR_V
+    //SetPlanetAvailable(PLANET_EBON_HAWK, TRUE); // EBON_HAWK IS MALACHOR_V
     //SetPlanetSelectable(PLANET_EBON_HAWK, TRUE);
-    //SetPlanetAvailable(PLANET_PERAGUS, TRUE);// PERAGUS IS SLEHEYRON
-    //SetPlanetSelectable(PLANET_PERAGUS, TRUE);//     
-    //SetPlanetAvailable(PLANET_TELOS, TRUE);// TELOS IS LEHON
-    //SetPlanetSelectable(PLANET_TELOS, TRUE);//   
-    //SetPlanetAvailable(PLANET_LIVE_01, TRUE); // LIVE_01 IS KASHYYYK
-    //SetPlanetSelectable(PLANET_LIVE_01, TRUE); 
-    //SetPlanetAvailable(PLANET_LIVE_02, TRUE); // LIVE_02 IS CORUSCANT
-    //SetPlanetSelectable(PLANET_LIVE_02, TRUE);  
-    //SetPlanetAvailable(PLANET_LIVE_03, TRUE); // LIVE_03 IS YAVIN
-    //SetPlanetSelectable(PLANET_LIVE_03, TRUE);   
-    //SetPlanetAvailable(PLANET_LIVE_04, TRUE); // LIVE_04 IS TATOOINE
-    //SetPlanetSelectable(PLANET_LIVE_04, TRUE);   
-    //SetPlanetAvailable(PLANET_LIVE_05, TRUE); // LIVE_05 IS MANAAN
-    //SetPlanetSelectable(PLANET_LIVE_05, TRUE);      // can PLANET_ONDERON be used?                  
+    //SetPlanetAvailable(PLANET_PERAGUS, TRUE);   // PERAGUS IS SLEHEYRON
+    //SetPlanetSelectable(PLANET_PERAGUS, TRUE);
+    //SetPlanetAvailable(PLANET_TELOS, TRUE);     // TELOS IS LEHON
+    //SetPlanetSelectable(PLANET_TELOS, TRUE);
+    //SetPlanetAvailable(PLANET_LIVE_01, TRUE);   // LIVE_01 IS KASHYYYK
+    //SetPlanetSelectable(PLANET_LIVE_01, TRUE);
+    //SetPlanetAvailable(PLANET_LIVE_02, TRUE);   // LIVE_02 IS CORUSCANT
+    //SetPlanetSelectable(PLANET_LIVE_02, TRUE);
+    //SetPlanetAvailable(PLANET_LIVE_03, TRUE);   // LIVE_03 IS YAVIN
+    //SetPlanetSelectable(PLANET_LIVE_03, TRUE);
+    //SetPlanetAvailable(PLANET_LIVE_04, TRUE);   // LIVE_04 IS TATOOINE
+    //SetPlanetSelectable(PLANET_LIVE_04, TRUE);
+    //SetPlanetAvailable(PLANET_LIVE_05, TRUE);   // LIVE_05 IS MANAAN
+    //SetPlanetSelectable(PLANET_LIVE_05, TRUE);
   }
-  if (GetGlobalNumber("401DXN_Visited") == 0) {
+  if(GetGlobalBoolean("COR_COUNCIL_DATA") == 0){
+    SetPlanetAvailable(PLANET_PERAGUS, FALSE);   // PERAGUS IS SLEHEYRON
+    SetPlanetSelectable(PLANET_PERAGUS, FALSE);
+    SetPlanetAvailable(PLANET_TELOS, FALSE);     // TELOS IS LEHON
+    SetPlanetSelectable(PLANET_TELOS, FALSE);
+    SetPlanetAvailable(PLANET_LIVE_01, FALSE);   // LIVE_01 IS KASHYYYK
+    SetPlanetSelectable(PLANET_LIVE_01, FALSE);
+    SetPlanetAvailable(PLANET_LIVE_04, FALSE);   // LIVE_04 IS TATOOINE
+    SetPlanetSelectable(PLANET_LIVE_04, FALSE);
+    SetPlanetAvailable(PLANET_LIVE_05, FALSE);   // LIVE_05 IS MANAAN
+    SetPlanetSelectable(PLANET_LIVE_05, FALSE);
+  }
+  else{
+    SetPlanetAvailable(PLANET_PERAGUS, TRUE);   // PERAGUS IS SLEHEYRON
+    SetPlanetSelectable(PLANET_PERAGUS, TRUE);
+    SetPlanetAvailable(PLANET_TELOS, TRUE);     // TELOS IS LEHON
+    SetPlanetSelectable(PLANET_TELOS, TRUE);
+    SetPlanetAvailable(PLANET_LIVE_01, TRUE);   // LIVE_01 IS KASHYYYK
+    SetPlanetSelectable(PLANET_LIVE_01, TRUE);
+    SetPlanetAvailable(PLANET_LIVE_04, TRUE);   // LIVE_04 IS TATOOINE
+    SetPlanetSelectable(PLANET_LIVE_04, TRUE);
+    SetPlanetAvailable(PLANET_LIVE_05, TRUE);   // LIVE_05 IS MANAAN
+    SetPlanetSelectable(PLANET_LIVE_05, TRUE);
+  }
+  if(GetGlobalNumber("401DXN_Visited") == 0) {
     SetPlanetAvailable(PLANET_DXUN, FALSE);
     SetPlanetSelectable(PLANET_DXUN, FALSE);    
   }
   else {
     SetPlanetSelectable(PLANET_ONDERON, FALSE);
   }
-  if ((GetGlobalNumber("000_M478_Found") == 0)) {
+  if((GetGlobalNumber("000_M478_Found") == 0)) {
     SetPlanetAvailable(PLANET_M4_78, FALSE);
 		SetPlanetSelectable(PLANET_M4_78, FALSE);
   }
-  if (GetGlobalNumber("852NIH_Nihilus_Dead") == 1) // This number variable can become a boolean.
+  if(GetGlobalNumber("852NIH_Nihilus_Dead") == 1)// This number variable can become a boolean.
   {
     SetPlanetAvailable(PLANET_EBON_HAWK, TRUE);// EBON_HAWK IS MALACHOR_V
     SetPlanetSelectable(PLANET_EBON_HAWK, TRUE); 
-    if (GetGlobalNumber("GBL_GAME_COMPLETE") >= 1)
+    if(GetGlobalNumber("GBL_GAME_COMPLETE") >= 1)// Might need a new variable for this, as this variable is set for those that have played the game through multiple times
     {
       SetPlanetAvailable(PLANET_EBON_HAWK, TRUE);// EBON HAWK IS MALACHOR
       SetPlanetSelectable(PLANET_EBON_HAWK, FALSE); 
@@ -177,11 +201,11 @@ void main() {
     SetPlanetSelectable(PLANET_EBON_HAWK, FALSE); 
   }
   // ST: In Space or Hyperspace // This was previously set to the Ebon Hawk when in hyperspace.
-  if ((GetGlobalNumber("003EBO_BACKGROUND") == 8) || (GetGlobalNumber("003EBO_BACKGROUND") == 10)) {
+  //if ((GetGlobalNumber("003EBO_BACKGROUND") == 8) || (GetGlobalNumber("003EBO_BACKGROUND") == 10)) {
     //int12 = 2;
     //SetPlanetAvailable(2, 1); 
-  }
-  if (GetGlobalBoolean("CARTH_SCENE") == 1) // Set to true during the Carth scene, this logic could be flipped and the boolean used again for something else.
+  //}
+  if(GetGlobalBoolean("CARTH_SCENE") == 1)// Set to true during the Carth scene, this logic could be flipped and the boolean used again for something else.
   {
     SetGlobalBoolean("CARTH_SCENE",0);// Set to false to prevent this statement tripping itself.
     SetGlobalNumber("003EBO_BACKGROUND",1);// To ensure int12 is set correctly after using the galaxy map and not travelling anywhere. Example : selecting Peragus.
