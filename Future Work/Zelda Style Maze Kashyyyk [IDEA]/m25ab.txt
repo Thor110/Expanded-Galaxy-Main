@@ -1,0 +1,5 @@
+forward leads into a modified version of m25ab that has four directions through which to exit the map
+
+resulting in an infinite zelda like lost forest ?.!
+
+respawning enemies / etc
