@@ -430,6 +430,8 @@ void main()
     }break;
   }
   //fade out
+  //Set the armband variable to null so the armband system is renewed for each jump between planets.
+  SetGlobalString("K_LAST_MODULE", "");
   SetBackground();
   ExecuteScript("a_holoworld", GetFirstPC());
   DoPlanetChange();
