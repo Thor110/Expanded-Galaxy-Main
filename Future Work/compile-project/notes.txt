@@ -1,0 +1,19 @@
+notes to myself for writing the script
+
+compile all scripts
+update all modules
+recreate changes.ini
+
+ie : generate file list, place in tslpatchdata, add numbers, delete file list, append to changes.ini template without override etc
+
+something along those lines anyways
+
+
+
+foldernames :
+Expanded Galaxy Main Installer
+Modules Source
+
+might be tricky, but it would be good to make it so that I can work on just the level contents and update everything in the install with the click of a button
+
+find a way to pack erf's in command line
