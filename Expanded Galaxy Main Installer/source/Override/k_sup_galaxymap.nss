@@ -317,8 +317,8 @@ void main()
       SetGlobalNumber("003EBO_RETURN_DEST",3);
       SetGlobalNumber("003EBO_BACKGROUND",3);
 
-      //if(GetGlobalBoolean("301_FIRST_ENTER"))//only que this movie if we have been here before
-      QueueMovie("NarMov01");
+      if(GetGlobalBoolean("301_FIRST_ENTER"))//only que this movie if we have been here before
+        QueueMovie("NarMov01");
     }break;
     case PLANET_DXUN://
     {
