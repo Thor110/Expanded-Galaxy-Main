@@ -148,12 +148,13 @@ void DoCutscenes() {
         DestroyObject(GetObjectByTag("baoplace"));
         DestroyObject(GetObjectByTag("baoplace2"));
     }
-    if(GetGlobalBoolean("LEAVING_POLAR") == TRUE)
+    if(GetGlobalBoolean("LEAVING_POLAR") == TRUE && GetGlobalBoolean("LEFT_POLAR") == FALSE)
     {
         SetGlobalNumber("003EBO_BACKGROUND", 10);
         SetGlobalNumber("003EBO_RETURN_DEST", 8);
+		SetGlobalBoolean("LEFT_POLAR",TRUE);
     }
-    if (GetGlobalNumber("852NIH_Nihilus_Dead") == 1)
+    if(GetGlobalNumber("852NIH_Nihilus_Dead") == 1)
     {
         if(GetGlobalBoolean("CARTH_SCENE") == TRUE)
         {
