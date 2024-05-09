@@ -79,7 +79,7 @@ void DoFirst701()
 
 void DoPlanetChange()
 {
-  SetGlobalBoolean("K_LAST_WAYPOINT",FALSE);
+  //SetGlobalBoolean("K_LAST_WAYPOINT",FALSE);//dead variable, remove from globalcat.2da / changes.ini
   if(GetGlobalNumber("401DXN_STARTED") == 1)
   {
     SetGlobalNumber("401DXN_STARTED", 2);
@@ -116,20 +116,6 @@ void DoPlanetChange()
     PlayMovieQueue();
     StartNewModule("201TEL", "WP_from_ebonhawk");
   }
-  //if (GetGlobalNumber("262TEL_Escape_Telos") == 0)
-  //{
-    //int12=10;// otherwise Sleheyron is selected
-    //SetGlobalNumber("003EBO_RETURN_DEST",10);
-    //SetGlobalNumber("003EBO_BACKGROUND",8);
-        
-    //PlayMovie("HypMov01");// make a "HypMov02" removing the entering hyperspace
-    //PlayMovie("TelMov01");
-    //QueueMovie("HypMov01");// make a "HypMov02" removing the entering hyperspace
-    //QueueMovie("TelMov01");
-    //PlayMovieQueue();
-        
-    //StartNewModule("201TEL","WP_from_ebonhawk"); // ("", "WP_from_ebonhawk")
-  //}
   // 262TEL cutscene triggers (JAB-OEI 10/22/04)
   else if( (GetGlobalNumber("000_Jedi_Found") >= 1) && (GetGlobalNumber("000_Jedi_Found") < 4) && (GetGlobalNumber("000_Atriscs1") == 0) && (IsAvailableCreature(NPC_HANDMAIDEN)))
   {//only if player is male
@@ -154,10 +140,10 @@ void main()
 {
   int nSelected = GetSelectedPlanet();
   int nPrevPlanet = GetCurrentPlanet();
-
+/*
   if(nSelected == -1)
     return;
-
+*/
   // play extra hyperspace movie after ravager
   if (GetGlobalBoolean("CARTH_SCENE") == TRUE)
   {
@@ -174,22 +160,6 @@ void main()
     QueueMovie("HypMov01");
     SetGlobalBoolean("LEFT_POLAR", TRUE);
   }
-        // play extra hyperspace movie after end of the game
-        /*if (GetGlobalNumber("GBL_GAME_COMPLETE") <= 1) // not used at the moment
-        {
-            SetGlobalBoolean("999EBO_Entered",TRUE);
-            if (GetGlobalBoolean("999EBO_Entered") == TRUE)
-            {
-                if (GetGlobalBoolean("999EBO_Exited") == FALSE)
-                {
-                  
-                  SetGlobalNumber("003EBO_RETURN_DEST",8);
-                  SetGlobalNumber("003EBO_BACKGROUND",10);
-                  QueueMovie("HypMov01");
-                  SetGlobalBoolean("999EBO_Exited",TRUE);
-                }
-            }
-        }*/
   // queue up leaving movie
   switch(GetGlobalNumber("003EBO_BACKGROUND"))
   {
@@ -295,7 +265,7 @@ void main()
       // need to check where we are landing
       QueueMovie("KorMov01");
     }break;
-    case 10://citadel station
+    case PLANET_HARBINGER://citadel station
     {
       SetGlobalNumber("003EBO_RETURN_DEST",1);
       SetGlobalNumber("003EBO_BACKGROUND",1);
@@ -420,14 +390,6 @@ void main()
       SetGlobalNumber("852NIH_Nihilus_Dead", 2);
       StartNewModule("907MAL", "", "", "", "", "", "", "");
     }break;
-    case PLANET_HARBINGER:
-    {
-      //SetGlobalNumber("003EBO_RETURN_DEST",15);
-      //SetGlobalNumber("003EBO_BACKGROUND",15);
-
-      //QueueMovie("KasMov01");//
-      // case 15 is used for PLANET_LIVE_05
-    }break;
   }
   //fade out
   //Set the armband variable to null so the armband system is renewed for each jump between planets.
@@ -435,44 +397,5 @@ void main()
   SetBackground();
   ExecuteScript("a_holoworld", GetFirstPC());
   DoPlanetChange();
-}
-
-//turns off all of the core worlds and live planets.
-void CUSTOM_TurnOffPlanets()
-{
-  SetPlanetSelectable(PLANET_NAR_SHADDAA, FALSE);
-  SetPlanetSelectable(PLANET_DXUN, FALSE);
-  SetPlanetSelectable(PLANET_ONDERON, FALSE);
-  SetPlanetSelectable(PLANET_DANTOOINE, FALSE);
-  SetPlanetSelectable(PLANET_KORRIBAN, FALSE);
-  SetPlanetSelectable(PLANET_MALACHOR_V, FALSE); // MALACHOR_V is now peragus
-  SetPlanetSelectable(PLANET_TELOS, FALSE); // TELOS IS LEHON
-  SetPlanetSelectable(PLANET_EBON_HAWK, FALSE); // EBON_HAWK IS MALACHOR_V
-  SetPlanetSelectable(PLANET_HARBINGER, FALSE); // HARBINGER IS TELOS : CITADEL STATION
-  SetPlanetSelectable(PLANET_PERAGUS, FALSE); // PERAGUS IS SLEHEYRON
-  if(GetIsLiveContentAvailable(LIVE_CONTENT_PKG1))
-  {
-    SetPlanetSelectable(PLANET_M4_78, FALSE);
-  }
-  if(GetIsLiveContentAvailable(LIVE_CONTENT_PKG2))
-  {
-    SetPlanetSelectable(PLANET_LIVE_01, FALSE); // LIVE_01 IS KASHYYYK
-  }
-  if(GetIsLiveContentAvailable(LIVE_CONTENT_PKG3))
-  {
-    SetPlanetSelectable(PLANET_LIVE_02, FALSE); // LIVE_02 IS CORUSCANT
-  }
-  if(GetIsLiveContentAvailable(LIVE_CONTENT_PKG4))
-  {
-    SetPlanetSelectable(PLANET_LIVE_03, FALSE); // LIVE_03 IS YAVIN
-  }
-  if(GetIsLiveContentAvailable(LIVE_CONTENT_PKG5))
-  {
-    SetPlanetSelectable(PLANET_LIVE_04, FALSE); // LIVE_04 IS TATOOINE
-  }
-  if(GetIsLiveContentAvailable(LIVE_CONTENT_PKG6))
-  {
-    SetPlanetSelectable(PLANET_LIVE_05, FALSE); // LIVE_05 IS MANAAN
-  }
 }
 
