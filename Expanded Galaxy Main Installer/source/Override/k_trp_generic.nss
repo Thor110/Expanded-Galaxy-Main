@@ -36,6 +36,7 @@ void main()
     object oTarget;
     int nTrapID = GetTrapBaseType(OBJECT_SELF);
     location lTrap = GetLocation(OBJECT_SELF);
+    int nTest = 27;
 
     Db_PostString("Trap Fired", 5,5,4.0);
 
@@ -178,7 +179,7 @@ void main()
             nTrapID == TRAP_BASE_TYPE_POISON_GAS_STRONG ||
             nTrapID == TRAP_BASE_TYPE_POISON_GAS_DEADLY ||
             nTrapID == TRAP_BASE_TYPE_POISON_GAS_DEVASTATING ||
-            nTrapID == 27 )
+            nTrapID == nTest )//Default : 27
     {
         effect ePoison;
         //The only difference between the poison traps is the poison type.  Therefore I am
@@ -188,7 +189,7 @@ void main()
         if(nTrapID == TRAP_BASE_TYPE_POISON_GAS_STRONG) {ePoison = EffectPoison(POISON_ABILITY_AND_DAMAGE_AVERAGE);}
         if(nTrapID == TRAP_BASE_TYPE_POISON_GAS_DEADLY) {ePoison = EffectPoison(POISON_DAMAGE_VIRULENT);}
         if(nTrapID == TRAP_BASE_TYPE_POISON_GAS_DEVASTATING) {ePoison = EffectPoison(POISON_ABILITY_AND_DAMAGE_VIRULENT);}
-        if(nTrapID == 27) {ePoison = EffectPoison(POISON_DAMAGE_AVERAGE);}
+        if(nTrapID == nTest ) /* Default : 27 */{ePoison = EffectPoison(POISON_DAMAGE_AVERAGE);}
 
         ePoison = SetEffectIcon(ePoison, 110);//RWT-OEI 07/08/04
         // DJS-OEI 1/27/2004

@@ -1,0 +1,14 @@
+line 39
+
+contains an integer value nTest
+
+line 182
+and
+line 192
+
+in the nss file reference that value
+this is currently added to the ncs file via the [HACKList] in the changes.ini file
+
+for a default game installation this would be 27
+
+Reference : https://github.com/NickHugi/PyKotor/wiki/HoloPatcher-README-for-mod-developers.#hacklist-editing-ncs-directly

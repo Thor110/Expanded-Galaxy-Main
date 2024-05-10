@@ -79,7 +79,7 @@ void DoFirst701()
 
 void DoPlanetChange()
 {
-  //SetGlobalBoolean("K_LAST_WAYPOINT",FALSE);//dead variable, remove from globalcat.2da / changes.ini
+  SetGlobalBoolean("K_LAST_WAYPOINT",FALSE);
   if(GetGlobalNumber("401DXN_STARTED") == 1)
   {
     SetGlobalNumber("401DXN_STARTED", 2);
