@@ -28,13 +28,23 @@ In future I might circle back around and make it compatible with the other versi
 # Folders
 Expanded Galaxy Main Installer - the main installer folder containing the source folder and tslpatchdata folder as well as HoloPatcher.
 
-Modules Source - contains the level files organised into folders denoting the planet and module names as well as the .mod files themselves, I use this to quickly and easily repack levels.
+future - future stuff to work on.
+- 001MAL - to remind me to work on a version of the Ebon Hawk to be used on Malachor based on 001EBO.
+- 201TEL - might not be used, was considering adding the ability to travel back to the Telos surface.
+- LegacySupport - notes and files for legacy support.
+- New Global Scripts - new global scripts.
+- New Worlds Setup - template script for setting up new worlds.
+- Texture Overhaul - the beginnings of a set of lists that will eventually be used as a basis for working on a texture overhaul for the project.
+- Kashyyyk Maze - notes on an idea.
+- mobile.png - notes on converting audio for the mobile release.
 
-Saves - the latest common save for testing purposes.
+includes - temporary includes folder to be used in compile all script.
+
+modules - contains the level files organised into folders denoting the planet and module names as well as the .mod files themselves, I use this to quickly and easily repack levels.
+
+saves - the latest common save for testing purposes.
 
 Scripts Left To Decompile - scripts that haven't been decompiled yet exist here.
-
-Texture Overhaul - the beginnings of a set of lists that will eventually be used as a basis for working on a texture overhaul for the project.
 
 # Files
 .gitattributes - the gitattributes file.
