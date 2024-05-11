@@ -49,13 +49,21 @@ Scripts Left To Decompile - scripts that haven't been decompiled yet exist here.
 # Files
 .gitattributes - the gitattributes file.
 
-update-modules.bat - A batch file used for updating the .mod files inside the "Expanded Galaxy Main Installer\tslpatchdata\modules" directory using those from the "Modules Source" folder.
+.gitignore - the gitignore file.
 
-KotOR2-Expanded-Galaxy.toml - a .toml file for KotORModSync. [https://github.com/th3w1zard1/KOTORModSync]
+compile-all-nss-in-all-sub-directories.bat - a batch script for compiling all scripts in all sub-directories.
+
+generate-override-file-list.bat - a batch script for generating the override folder file list for use in the changes.ini file.
+
+nwnnsscomp.exe - nwnnsscomp
+
+nwscript.nss - nwscript.nss source script
 
 README.md - the readme.md file.
 
 TESTING.md - the testing.md file.
+
+update-modules.bat - A batch file used for updating the .mod files inside the "Expanded Galaxy Main Installer\tslpatchdata\modules" directory using those from the "Modules Source" folder.
 
 version.txt - the current version number.
 
