@@ -1,8 +1,15 @@
 
 Expanded Galaxy Main Installer/backup
 Expanded Galaxy Main Installer/uninstall
-Expanded Galaxy Main Installer/debug_pykotor.log
-Expanded Galaxy Main Installer/debug_pykotor.log.1
 Expanded Galaxy Main Installer/installlog.txt
-Expanded Galaxy Main Installer/pykotor.log
-Expanded Galaxy Main Installer/pykotor.log.1
+Expanded Galaxy Main Installer/*.log
+Expanded Galaxy Main Installer/*.1
+Expanded Galaxy Main Installer/*.2
+Expanded Galaxy Main Installer/*.3
+Expanded Galaxy Main Installer/*.4
+Expanded Galaxy Main Installer/*.5
+Expanded Galaxy Main Installer/*.6
+Expanded Galaxy Main Installer/*.7
+Expanded Galaxy Main Installer/*.8
+Expanded Galaxy Main Installer/*.9
+override.txt
