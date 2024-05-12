@@ -1,4 +1,6 @@
 @echo off
+rem Thor110
+rem generate override file list for changes.ini
 
 if exist override.txt (
 	del override.txt
