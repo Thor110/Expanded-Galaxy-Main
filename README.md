@@ -69,7 +69,7 @@ NOTE : Do not use the Steam Workshop for any mods when using this project.
 
 2: 1.0B Patch "sw_pc_english_from200424_to210427.exe" ( GoG & Steam Users Must Skip This Step ) [https://www.moddb.com/games/star-wars-knights-of-the-old-republic-ii/downloads/patch-1-0b-us]
 
-3: Aspyr Patched Files ( Optional for GoG & Disc Users ) ( Steam Users Must Skip This Step ) [https://www.gog.com/forum/star_wars_knights_of_the_old_republic_series/kotor_ii_drmfree_steam_update/page1]
+3: Aspyr Patched Files ( Optional for GoG & Disc Users ) ( Steam Users Must Skip This Step ) - DOWNLOAD LINK DEAD - [https://www.gog.com/forum/star_wars_knights_of_the_old_republic_series/kotor_ii_drmfree_steam_update/page1]
 
 4: TSLRCM [https://deadlystream.com/files/file/578-tsl-restored-content-mod/]
 
