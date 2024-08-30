@@ -20,9 +20,7 @@ Hoping to put out a proper release of all three parts of the project again some 
 # Expanded Galaxy Main
 Expanded Galaxy is a mod that adds the planets from the first game and a bunch of fixes / changes / additions.
 
-The current version is only compatible with the Steam version of the game or anyone that uses the Aspyr Patch, which can be installed to other versions of the game. ( see step 3 ) [https://github.com/Thor110/Expanded-Galaxy-Main?tab=readme-ov-file#installation]
-
-In future I might circle back around and make it compatible with the other versions of the game as there are pro's and con's to both versions.
+I recently updated the installer to accomodate the different versions of the game ( Disc, LegacyPC & Steam ) however I have not yet tested anything other than the Steam version.
 
 ## Repository folder and file structure
 # Folders
@@ -70,6 +68,7 @@ NOTE : Do not use the Steam Workshop for any mods when using this project.
 2: 1.0B Patch "sw_pc_english_from200424_to210427.exe" ( GoG & Steam Users Must Skip This Step ) [https://www.moddb.com/games/star-wars-knights-of-the-old-republic-ii/downloads/patch-1-0b-us]
 
 3: Aspyr Patched Files ( Optional for GoG & Disc Users ) ( Steam Users Must Skip This Step ) - DOWNLOAD LINK DEAD - [https://www.gog.com/forum/star_wars_knights_of_the_old_republic_series/kotor_ii_drmfree_steam_update/page1]
+	As I understand it, the Aspyr patch is now included with the GoG release by default, however now that the download link is dead, there is no way to apply it to the Disc version of the game.
 
 4: TSLRCM [https://deadlystream.com/files/file/578-tsl-restored-content-mod/]
 
