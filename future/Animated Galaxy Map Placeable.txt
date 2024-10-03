@@ -1,0 +1,19 @@
+consider the possibility of making a set of placeables that contain the animated galaxy map
+
+this way a variety of them can be made to represent each possible stage the galaxy map could have
+
+IE
+
+primary : Telos & Peragus
+secondary : Telos & Peragus, TSL Worlds, Coruscant & Yavin
+tertiary : Telos & Peragus, TSL Worlds, Coruscant, Yavin and M478
+quaternary : Telos & Peragus, TSL Worlds, Coruscant, Yavin, M478 and K1 worlds
+quinternary : Telos & Peragus, TSL Worlds, Coruscant, Yavin and K1 Worlds
+sexternary : Telos & Peragus, TSL Worlds, Coruscant, Yavin, K1 Worlds, M478 and Malachor
+septernary : Telos & Peragus, TSL Worlds, Coruscant, Yavin, M478 and Malachor
+
+octonary?
+novenary?
+
+I think that covers all possible variants the animated galaxy map would need
+
