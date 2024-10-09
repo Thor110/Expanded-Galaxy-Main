@@ -6,3 +6,6 @@ these can be moved over to the "port/source/template" folder and added to the "p
 
 .gui files and some other files moved, it's likely that other files are still present that aren't necessary
 
+pebn_mystery.dlg needs renaming or something as it now exists in both games.
+
+so the main one will override the port one
