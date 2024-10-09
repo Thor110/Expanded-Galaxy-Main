@@ -4,10 +4,5 @@ specifically .gui files that were previously necessary for the manual templates 
 
 these can be moved over to the "port/source/template" folder and added to the "port-file-list.txt" file.
 
-.gui files moved, it's likely that other files are still present that aren't necessary
-
-
-
-files to move or consider
-some of the loading screens load_ etc
+.gui files and some other files moved, it's likely that other files are still present that aren't necessary
 
