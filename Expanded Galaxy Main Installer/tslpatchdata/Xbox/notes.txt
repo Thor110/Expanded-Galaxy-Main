@@ -1,0 +1,16 @@
+	Expanded Galaxy
+
+textures and models need updating
+
+models specifically converted for xbox
+
+and .tpc need changing to .txb
+
+galaxymap_x.gui needs to be made
+
+	Pre-Requisites
+
+m478ep needs an xbox specific version made
+
+as does coruscant
+
