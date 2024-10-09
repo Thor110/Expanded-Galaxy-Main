@@ -1,0 +1,5 @@
+some files exist in the Override folder that aren't needed
+
+specifically .gui files that were previously necessary for the manual templates to swap between the games.
+
+these can be moved over to the "port/source/template" folder and added to the "port-file-list.txt" file.
