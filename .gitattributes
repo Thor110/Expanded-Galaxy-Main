@@ -1,1 +1,6 @@
-*.lyt text eol=crlf
+*.lyt text
+*.vis text
+*.ascii.mdl text
+*.txi text
+*.nss text
+* text=auto eol=crlf
