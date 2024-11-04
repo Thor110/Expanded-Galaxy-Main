@@ -1,0 +1,5 @@
+switch specific updates need to be made for TSLRCM, M478EP and Coruscant...
+
+.gui files etc
+
+EXTENT values LEFT/TOP have not been set yet for the new worlds in galaxymap_x.gui
