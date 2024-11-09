@@ -1,0 +1,3 @@
+galaxymap_p.gui is identical to the PC version of the file currently residing in the "SteamAmazonGoG" folder.
+
+switch out at some point and add or use a different folder.
