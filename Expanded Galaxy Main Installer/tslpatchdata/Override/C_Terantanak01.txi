@@ -1,2 +1,0 @@
-bumpyshinytexture CM_SpecMap
-bumpmaptexture C_Terantanak01b

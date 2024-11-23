@@ -1,1 +1,0 @@
-bumpmaptexture C_Hutt01b
