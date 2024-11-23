@@ -1,4 +1,3 @@
-different-matching_files.txt
 tslpatchdata\changes-amazon.ini
 tslpatchdata\changes-android.ini
 tslpatchdata\changes-disc.ini
@@ -7,8 +6,3 @@ tslpatchdata\changes-legacypc.ini
 tslpatchdata\changes-steam.ini
 tslpatchdata\changes-switch.ini
 tslpatchdata\changes-xbox.ini
-tslpatchdata\Override\LDA_flr03.tpc
-
-LDA_flr03 used in
-
-tslpatchdata\Override\m14ad_05a.mdl
