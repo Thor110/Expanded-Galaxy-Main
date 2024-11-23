@@ -1,5 +1,0 @@
-find which models reference what textures and update them to use the k2 filenames
-
-also, don't do this until all the model files have been updated and fixed
-
-move textures not used from main to port and vice versa

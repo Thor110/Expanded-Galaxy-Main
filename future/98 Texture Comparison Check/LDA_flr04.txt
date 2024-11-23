@@ -8,7 +8,4 @@ tslpatchdata\changes-steam.ini
 tslpatchdata\changes-switch.ini
 tslpatchdata\changes-xbox.ini
 tslpatchdata\Override\LDA_flr03.tpc
-
-LDA_flr03 used in
-
 tslpatchdata\Override\m14ad_05a.mdl
