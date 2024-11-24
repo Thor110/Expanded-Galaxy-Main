@@ -1,7 +1,0 @@
-different-matching_files.txt
-tslpatchdata\Override\LDA_CrystalBlue.tpc
-tslpatchdata\Override\LDA_CrystalGrn.tpc
-tslpatchdata\Override\LDA_CrystalPrpl.tpc
-tslpatchdata\Override\LDA_CrystalRed.tpc
-tslpatchdata\Override\LDA_CrystalYlw.tpc
-tslpatchdata\Override\LDA_water04.tpc

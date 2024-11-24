@@ -1,0 +1,8 @@
+tslpatchdata\changes-amazon.ini
+tslpatchdata\changes-android.ini
+tslpatchdata\changes-disc.ini
+tslpatchdata\changes-gog.ini
+tslpatchdata\changes-legacypc.ini
+tslpatchdata\changes-steam.ini
+tslpatchdata\changes-switch.ini
+tslpatchdata\changes-xbox.ini
