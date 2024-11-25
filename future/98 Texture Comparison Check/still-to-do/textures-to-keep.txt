@@ -1,6 +1,0 @@
-LSL_detail01.tga matches DXN_Dtl.tga
-LSL_lite03.tga matches DXN_Lit2.tga
-LSL_trim01.tga matches DXN_Trm1.tga
-LSL_wall03.tga matches DXN_Wal3.tga
-LSL_wall04.tga matches DXN_Wal4.tga
-LSL_wall08.tga matches DXN_Wal7.tga

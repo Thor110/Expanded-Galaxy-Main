@@ -1,2 +1,35 @@
 m30aa_01a.mdl
 m99ac_01a.mdl
+
+the above two models failed to convert with MDLEdit, or rather, threw an error so I chose to do them manually.
+
+These are the textures that need changing and what models they are in
+
+LSL_detail01.tga matches DXN_Dtl.tga
+
+m99ac_01a
+
+LSL_lite03.tga matches DXN_Lit2.tga
+
+m30aa_01a
+m99ac_01a
+
+LSL_trim01.tga matches DXN_Trm1.tga
+
+m30aa_01a
+m99ac_01a
+
+LSL_wall03.tga matches DXN_Wal3.tga
+
+m30aa_01a
+m99ac_01a
+
+LSL_wall04.tga matches DXN_Wal4.tga
+
+m30aa_01a
+m99ac_01a
+
+LSL_wall08.tga matches DXN_Wal7.tga
+
+m30aa_01a
+m99ac_01a
