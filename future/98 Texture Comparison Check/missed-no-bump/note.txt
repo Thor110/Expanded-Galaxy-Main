@@ -1,0 +1,6 @@
+
+LRK_flr04.txi
+
+use
+
+bumpmaptexture DXN_Fl01b
