@@ -1,2 +1,0 @@
-tslpatchdata\Override\m21aa_01a.mdl
-tslpatchdata\Override\m33aa_02a.mdl
