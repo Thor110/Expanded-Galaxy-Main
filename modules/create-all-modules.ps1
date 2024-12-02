@@ -12,5 +12,4 @@ foreach ($filename in $filenames)
 	& 'C:\Program Files (x86)\KotOR Tools\Xoreos Tools\erf' --mod --v10 $file $files
 }
 
-Read-Host -Prompt "`nPress Enter to exit"
 exit
