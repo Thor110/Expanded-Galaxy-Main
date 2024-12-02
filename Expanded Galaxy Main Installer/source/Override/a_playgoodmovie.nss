@@ -8,7 +8,7 @@ void main()
 	QueueMovie("MalMov11b", TRUE);
 	QueueMovie("MalMov12", TRUE);
 
-  StartNewModule("999EBO");
+  StartNewModule("003EBO");
 
 	PlayMovieQueue(TRUE);
 }
