@@ -313,7 +313,7 @@ void SetHologramWorld()
     {
         case 0://106PER
         {
-            sResRef = "holo_per";
+            sResRef = "holo_sle";
         }break;
         case 1://201TEL
         {
@@ -321,7 +321,7 @@ void SetHologramWorld()
         }break;
         case 2://262TEL
         {
-            sResRef = "holo_tel";
+            sResRef = "holo_unk";
         }break;
         case 3://301NAR
         {
@@ -341,7 +341,7 @@ void SetHologramWorld()
         }break;
         case 7://801DRO
         {
-            sResRef = "";
+            sResRef = "holo_dro";
         }break;
         case 8://space // new planet 01
         {
@@ -349,31 +349,31 @@ void SetHologramWorld()
         }break;
         case 9://901MAL // new planet 02
         {
-            sResRef = "holo_nar";
+            //sResRef = "";//hyperspace
         }break;
         case 10://Hyperspace // new planet 03
         {
-            //sResRef = "holo_nar";//ebon hawk
+            sResRef = "holo_mal";
         }break;
         case 11: //KASHYYK
         {
-            sResRef = "holo_kor";
+            sResRef = "holo_kas";
         }break; 
         case 12: //954COR
         {
-            sResRef = "holo_nar";
+            sResRef = "holo_cor";
         }break; 
         case 13: //YAVIN
         {
-            sResRef = "holo_kor";
+            sResRef = "holo_yav";
         }break; 
         case 14: //TATOOINE
         {
-            sResRef = "holo_kor";
+            sResRef = "holo_tat";
         }break; 
         case 15: //MANAAN
         {
-            sResRef = "holo_kor";
+            sResRef = "holo_man";
         }break; 
         default://error
         {
