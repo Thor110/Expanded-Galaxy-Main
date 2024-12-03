@@ -2,6 +2,9 @@
 rem Thor110
 rem compile all nss scripts in all sub directories
 
+echo compiling all scripts in all sub directories plus some special commands specific to the EGP architecture
+echo run this first
+
 set value="Expanded Galaxy Main Installer
 
 rem update inc hawk in override ( not necessary but it's there atm )
