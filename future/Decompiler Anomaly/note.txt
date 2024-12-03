@@ -1,0 +1,1 @@
+these two scripts decompile with dencs but newly compiled versions do not...???
