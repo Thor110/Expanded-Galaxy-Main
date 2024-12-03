@@ -2,20 +2,10 @@
 rem Thor110
 rem compile all nss scripts in all sub directories
 
-echo script broken!!!
+set value = "Expanded Galaxy Main Installer"
 
-pause
-exit
-
-for /r "includes" %%x in (*.nss) do copy "%%x" "Expanded Galaxy Main Installer\tslpatchdata\Override"
-
-rem edited include scripts must also be copied temporarily
-
-copy /y "Expanded Galaxy Main Installer\tslpatchdata\source\Override\k_inc_hawk.nss" "Expanded Galaxy Main Installer\tslpatchdata\Override"
-
-for /d %%f in (Expanded Galaxy Main Installer\source\Modules\*) do (
-	copy /y "Expanded Galaxy Main Installer\tslpatchdata\source\Override\k_inc_hawk.nss" "%%f"
-)
+copy /y "%value%\source\Override\k_inc_hawk.nss" "%value%\tslpatchdata\Override\k_inc_hawk.nss"
+copy /y "%value%\source\Override\k_inc_hawk.nss" "%value%\source\Modules\003ebo\k_inc_hawk.nss"
 
 for /r %%F in (./*.nss) do (
   if not "%%~nF"=="nwscript" (
@@ -25,23 +15,28 @@ for /r %%F in (./*.nss) do (
   )
 )
 
-for /r "Expanded Galaxy Main Installer\source\Override" %%x in (*.ncs) do move "%%x" "Expanded Galaxy Main Installer\tslpatchdata\Override"
+for /r "%value%\source\Override" %%x in (*.ncs) do move "%%x" "%value%\tslpatchdata\Override"
 
-for /d %%f in (Expanded Galaxy Main Installer\source\Modules\*) do (
-	for /r %%i in (Expanded Galaxy Main Installer\source\Modules\%%f\*.ncs) do (
-		move "%%i" "Expanded Galaxy Main Installer\tslpatchdata\%%f"
+for /d %%f in (%value%\source\Modules\*) do (
+	for /r %%i in (%value%\source\Modules\%%~nf\*.ncs) do (
+		move "%%~fi" "%value%\tslpatchdata\%%~nf\%%~nxi"
 	)
 )
 
-rem deleting temporary include scripts
+rem deleting ncs from source folders
 
-for /r "includes" %%x in (Expanded Galaxy Main Installer\source\Override\*.nss) do del /q "Expanded Galaxy Main Installer\tslpatchdata\Override\%%x"
-
-for /d %%f in (Expanded Galaxy Main Installer\source\Modules\*) do (
-	for /r "includes" %%x in (*.nss) do del "%%f\%%x"
-	del /q "%%f\k_inc_hawk.nss"
+for /d %%f in (%value%\source\*) do (
+	for /r %%x in (./*.ncs) do del "%%~fx"
 )
+
+del /q "%value%\source\Modules\003ebo\k_inc_hawk.nss"
 
 echo new scripts must be added to the changes.ini for each module! for now...
 
 pause
+exit
+
+The system cannot find the file specified.
+"D:\modules\Expanded"
+"Expanded"
+"Expanded"
