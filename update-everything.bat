@@ -4,7 +4,7 @@ rem update-modules.bat is here for now as PowerShell executes from wrong locatio
 
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& '%cd%\modules\create-all-modules.ps1'" 
 
-for /r "Modules Source" %%x in (*.mod) do copy "%%x" "%cd%\Expanded Galaxy Main Installer\tslpatchdata\Modules"
+for /r "modules" %%x in (*.mod) do copy "%%x" "%cd%\Expanded Galaxy Main Installer\tslpatchdata\Modules"
 
 call update-changes.ini.bat
 call update-release.bat
