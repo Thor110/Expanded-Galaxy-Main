@@ -47,5 +47,3 @@ type changes\changes-xbox-intro.ini			changes\changes.ini changes\changes-xbox-o
 del override.txt
 
 echo changes.ini files created!
-
-pause

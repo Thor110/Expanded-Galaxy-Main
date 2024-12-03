@@ -10,5 +10,3 @@ PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& '%cd%\modules\create-a
 for /r "Modules Source" %%x in (*.mod) do copy "%%x" "%cd%\Expanded Galaxy Main Installer\tslpatchdata\Modules"
 
 echo Modules Updated
-pause
-exit

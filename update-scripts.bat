@@ -47,9 +47,4 @@ del /q %value%\tslpatchdata\Override\k_trp_generic.ncs"
 
 rem things still need to be properly checked over, added to the changes.ini to ensure everything is accurate
 
-cls
-
 echo new scripts must be added to the changes.ini for each module! for now...
-
-pause
-exit
