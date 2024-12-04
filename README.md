@@ -54,14 +54,22 @@ changes - contains the components of the changes.ini files.
 Expanded Galaxy Main Installer - the main installer folder containing the source folder and tslpatchdata folder as well as HoloPatcher.
 
 future - future stuff to work on.
+- 00 Design Documents - some old design documents.
 - 001MAL - to remind me to work on a version of the Ebon Hawk to be used on Malachor based on 001EBO.
+- 08 M478EP Update - my edited versions of M478EP which need fixing.
+- 98 Texture Comparison Check - notes on the texture reference comparison that I ran, some things still need doing.
 - 201TEL - might not be used, was considering adding the ability to travel back to the Telos surface.
+- Decompiler Anomaly - an anomaly with some scripts that cannot be decompiled after being recompiled but the current versions can be decompiled.
+- Kashyyyk Maze - notes on an idea.
 - LegacySupport - notes and files for legacy support.
 - New Global Scripts - new global scripts.
 - New Worlds Setup - template script for setting up new worlds.
 - Texture Overhaul - the beginnings of a set of lists that will eventually be used as a basis for working on a texture overhaul for the project.
-- Kashyyyk Maze - notes on an idea.
+- Things To Add - things to add.
+- Animated Galaxy Map Placeable.txt - notes on an idea.
 - mobile.png - notes on converting audio for the mobile release.
+- switch-or-xbox.txt - reminder to check if the Switch uses the Xbox TSL Model Format or just it's .gui files.
+- template files.txt - reminder on conflicting files between parts of the project.
 
 modules - contains the level files organised into folders denoting the planet and module names as well as the .mod files themselves, I use this to quickly and easily repack levels.
 
