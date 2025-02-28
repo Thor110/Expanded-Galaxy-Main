@@ -1,9 +1,6 @@
 @echo off
 rem Thor110
-rem update all modules
-
-echo compiling all modules in all relevant directories
-echo run this second
+rem update all modules run this second
 
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& '%cd%\modules\create-all-modules.ps1'" 
 

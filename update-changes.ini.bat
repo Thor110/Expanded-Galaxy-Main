@@ -1,9 +1,6 @@
 @echo off
 rem Thor110
-rem generate override file list for changes.ini
-
-echo compiling all modules in all relevant directories
-echo run this third
+rem generate override file list for changes.ini run this third
 
 del "Expanded Galaxy Main Installer\tslpatchdata\changes-amazon.ini"
 del "Expanded Galaxy Main Installer\tslpatchdata\changes-android.ini"

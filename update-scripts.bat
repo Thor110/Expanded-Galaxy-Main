@@ -1,9 +1,6 @@
 @echo off
 rem Thor110
-rem compile all nss scripts in all sub directories
-
-echo compiling all scripts in all sub directories plus some special commands specific to the EGP architecture
-echo run this first
+rem compile all nss scripts in all sub directories run this first
 
 set value="Expanded Galaxy Main Installer
 
