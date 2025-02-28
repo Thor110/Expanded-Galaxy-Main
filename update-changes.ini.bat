@@ -14,7 +14,7 @@ del "Expanded Galaxy Main Installer\tslpatchdata\changes-steam.ini"
 del "Expanded Galaxy Main Installer\tslpatchdata\changes-switch.ini"
 del "Expanded Galaxy Main Installer\tslpatchdata\changes-xbox.ini"
 del "Expanded Galaxy Main Installer\tslpatchdata\changes-macdisc.ini"
-del "Expanded Galaxy Main Installer\tslpatchdata\changes-macaspyr.ini"
+del "Expanded Galaxy Main Installer\tslpatchdata\changes-macappstore.ini"
 del "Expanded Galaxy Main Installer\tslpatchdata\changes-macsteam.ini"
 
 dir "Expanded Galaxy Main Installer\tslpatchdata\Override" /b > temp-list.txt
@@ -47,7 +47,7 @@ type changes\changes-steam-intro.ini		changes\changes.ini changes\changes-steam-
 type changes\changes-switch-intro.ini		changes\changes.ini changes\changes-switch-outro.ini		override.txt > "Expanded Galaxy Main Installer\tslpatchdata\changes-switch.ini"
 type changes\changes-xbox-intro.ini			changes\changes.ini changes\changes-xbox-outro.ini			override.txt > "Expanded Galaxy Main Installer\tslpatchdata\changes-xbox.ini"
 type changes\changes-macdisc-intro.ini		changes\changes.ini changes\changes-macdisc-outro.ini		override.txt > "Expanded Galaxy Main Installer\tslpatchdata\changes-macdisc.ini"
-type changes\changes-macaspyr-intro.ini		changes\changes.ini changes\changes-macaspyr-outro.ini		override.txt > "Expanded Galaxy Main Installer\tslpatchdata\changes-macaspyr.ini"
+type changes\changes-macappstore-intro.ini	changes\changes.ini changes\changes-macappstore-outro.ini	override.txt > "Expanded Galaxy Main Installer\tslpatchdata\changes-macappstore.ini"
 type changes\changes-macsteam-intro.ini		changes\changes.ini changes\changes-macsteam-outro.ini		override.txt > "Expanded Galaxy Main Installer\tslpatchdata\changes-macsteam.ini"
 
 del override.txt
