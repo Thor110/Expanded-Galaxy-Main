@@ -27,6 +27,8 @@ NOTE : Do not use the Steam Workshop for any mods when using this project.
 
 6: Coruscant [https://deadlystream.com/files/file/585-coruscant-jedi-temple-by-deathdisco/]
 
+- Ignore the warning while installing Coruscant : "Done. Changes have been applied, but 1 warnings were encountered."
+
 7: TSL Expanded Galaxy (Main) (the mod provided by this repo)
 
 ## Optional Add-ons
