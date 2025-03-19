@@ -1,4 +1,18 @@
-To install for Android
+Install the mobile version of the pre-requisites to this folder.
+
+	TSLRCM
+Copy the contents of the "mods_" folder to this folder.
+1 : https://deadlystream.com/files/file/1801-mobile-restored-content-mod-mtslrcm/
+
+	M478EP
+Copy the contents of the "mods_" folder to this folder.
+2 : https://deadlystream.com/files/file/2552-mobile-m4-78-enhancement-project/
+
+	Coruscant
+Copy the contents of the "mtslrcm and mm478ep" folder to this folder.
+3 : https://deadlystream.com/files/file/2550-mobile-coruscant-jedi-temple/
+
+	To install for Android
 
 Select the Android version from the dropdown
 
@@ -8,7 +22,7 @@ Install to this directory, then copy everything over to /Home/Android/data/com.a
 
 
 
-To install for iOS
+	To install for iOS
 
 Install to this directory, then copy everything over using iTunes.
 
