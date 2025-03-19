@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Launcher": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Knights of the Old Republic II"
+    }
+  }
+}
