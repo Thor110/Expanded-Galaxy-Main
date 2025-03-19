@@ -27,3 +27,11 @@ Install to this directory, then copy everything over to /Home/Android/data/com.a
 Install to this directory, then copy everything over using iTunes.
 
 On iOS, they are placed in iTunes > Apps > Documents, in the same spot that the ‘saves’ folder goes.
+
+
+
+	Optional Add-Ons
+
+If you plan to install the Port or Brotherhood, the installation can be continued using this folder.
+
+Note : there is no way to swap between playing K1 or K2 on mobile yet, so once you have installed the port, you are stuck with it.
