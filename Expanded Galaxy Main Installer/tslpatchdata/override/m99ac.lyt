@@ -1,0 +1,10 @@
+#MAXLAYOUT ASCII
+filedependancy M99ab.max
+beginlayout
+   roomcount 2
+      M99ac_01a 0.0 0.0 0.0
+      dor_lsl01 0.0 -26.0 2.5
+   trackcount 0
+   obstaclecount 0
+   doorhookcount 0
+donelayout

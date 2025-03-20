@@ -1,0 +1,10 @@
+#MAXLAYOUT ASCII
+filedependancy m30aa.max
+beginlayout
+   roomcount 2
+      m30aa_01a 0.0 0.0 0.0
+      m30aa_skb 0.0 0.0 0.0
+   trackcount 0
+   obstaclecount 0
+   doorhookcount 0
+donelayout

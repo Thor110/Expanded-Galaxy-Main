@@ -1,0 +1,18 @@
+#MAXLAYOUT ASCII
+filedependancy m22aa.max
+beginlayout
+   roomcount 6
+      m22aa_02a 150.0 225.0 75.0
+      M22aa_04a 300.0 225.0 75.0
+      M22aa_03a 225.0 225.0 75.0
+      m22aa_01a 75.0 225.0 75.0
+      M22aa_05a 375.0 225.0 75.0
+      m22aa_06a 75.0 300.0 75.0
+   trackcount 0
+   obstaclecount 0
+   doorhookcount 4
+      M22aa_04a door_05 0 49.0142 50.7588 64.5601 0.707107 0.0 0.0 0.707107
+      M22aa_03a door_02 0 160.707 81.6292 60.693 0.59131 0.0 0.0 -0.806445
+      m22aa_01a door_03 0 148.864 91.5266 60.6483 -0.241922 0.0 0.0 0.970296
+      m22aa_01a door_04 0 167.613 141.561 60.7717 0.824126 0.0 0.0 -0.566406
+donelayout

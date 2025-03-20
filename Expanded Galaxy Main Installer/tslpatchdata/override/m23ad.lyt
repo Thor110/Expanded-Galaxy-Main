@@ -1,0 +1,10 @@
+#MAXLAYOUT ASCII
+filedependancy m23ad.max
+beginlayout
+   roomcount 1
+      m23ad_01a 0.0 0.0 0.0
+   trackcount 0
+   obstaclecount 0
+   doorhookcount 1
+      m23ad_01a door_01 0 46.2401 20.7581 3.825 0.646124 0.0 0.0 -0.763232
+donelayout
