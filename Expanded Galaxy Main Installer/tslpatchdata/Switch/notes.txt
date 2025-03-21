@@ -1,3 +1,0 @@
-switch specific updates need to be made for TSLRCM, M478EP and Coruscant...
-
-galaxy map made
