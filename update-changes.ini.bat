@@ -36,13 +36,13 @@ echo Override Install List Generated!
 
 echo Creating changes.ini files...
 
-type changes\changes-amazon-intro.ini		changes\changes.ini changes\changes-aspyr-outro.ini			override.txt > "Expanded Galaxy Main Installer\tslpatchdata\changes-amazon.ini"
+type changes\changes-amazon-intro.ini		changes\changes.ini changes\changes-pc-outro.ini			override.txt > "Expanded Galaxy Main Installer\tslpatchdata\changes-amazon.ini"
 type changes\changes-mobile-intro.ini		changes\changes.ini changes\changes-android-ios-outro.ini	override.txt > "Expanded Galaxy Main Installer\tslpatchdata\changes-android.ini"
 type changes\changes-disc-intro.ini			changes\changes.ini changes\changes-pc-outro.ini			override.txt > "Expanded Galaxy Main Installer\tslpatchdata\changes-disc.ini"
-type changes\changes-gog-intro.ini			changes\changes.ini changes\changes-aspyr-outro.ini			override.txt > "Expanded Galaxy Main Installer\tslpatchdata\changes-gog.ini"
+type changes\changes-gog-intro.ini			changes\changes.ini changes\changes-pc-outro.ini			override.txt > "Expanded Galaxy Main Installer\tslpatchdata\changes-gog.ini"
 type changes\changes-gog-legacy-intro.ini	changes\changes.ini changes\changes-pc-outro.ini			override.txt > "Expanded Galaxy Main Installer\tslpatchdata\changes-gog-legacy.ini"
 type changes\changes-legacypc-intro.ini		changes\changes.ini changes\changes-pc-outro.ini			override.txt > "Expanded Galaxy Main Installer\tslpatchdata\changes-legacypc.ini"
-type changes\changes-steam-intro.ini		changes\changes.ini changes\changes-aspyr-outro.ini			override.txt > "Expanded Galaxy Main Installer\tslpatchdata\changes-steam.ini"
+type changes\changes-steam-intro.ini		changes\changes.ini changes\changes-pc-outro.ini			override.txt > "Expanded Galaxy Main Installer\tslpatchdata\changes-steam.ini"
 type changes\changes-mobile-intro.ini		changes\changes.ini changes\changes-switch-outro.ini		override.txt > "Expanded Galaxy Main Installer\tslpatchdata\changes-switch.ini"
 type changes\changes-xbox-intro.ini			changes\changes.ini changes\changes-xbox-outro.ini			override.txt > "Expanded Galaxy Main Installer\tslpatchdata\changes-xbox.ini"
 type changes\changes-macappstore-intro.ini	changes\changes.ini changes\changes-mac-outro.ini			override.txt > "Expanded Galaxy Main Installer\tslpatchdata\changes-macappstore.ini"
