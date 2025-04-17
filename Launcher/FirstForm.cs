@@ -373,7 +373,7 @@ namespace Launcher
         {
             if (!config) { return; }
             MessageBox.Show("This feature doesn't work yet!");
-            return;
+            //return;
             if (checkBox9.Checked == true)
             {
                 FolderBrowserDialog folderBrowserDialog = new FolderBrowserDialog();
@@ -389,6 +389,13 @@ namespace Launcher
                     {
                         checkBox9.Checked = false;
                         MessageBox.Show("The selected folder is not a valid save folder.");
+                    }
+                    string parentPath = Directory.GetParent(folderPath)!.ToString();
+                    if (File.Exists(Path.Combine(parentPath, "swkotor.exe")) && !File.Exists(Path.Combine(parentPath, "free-roam-exists.txt")))
+                    {
+                        // first game save
+                        // check for end-game free-roam mod
+                        MessageBox.Show("The end-game free-roam mod is required to import a save game from the original game.");
                     }
                     else { ProcessSave(filePath); }
                 }

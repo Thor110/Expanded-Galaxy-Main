@@ -1,0 +1,3 @@
+The end-game free-roam mod for kotor 1 is required to import a save file from the original game.
+
+Alternatively I might create a prompt window for choosing the decisions made in the first game?
