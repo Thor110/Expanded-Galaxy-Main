@@ -465,6 +465,8 @@ namespace Launcher
                     Tuple.Create(0x584045L, new byte[] { 0x9C }),               // Class Values
                     Tuple.Create(0x584021L, new byte[] { 0x9D }),               // Class Values
                     Tuple.Create(0x583FFEL, new byte[] { 0x9B }),               // Class Values
+                    Tuple.Create(0x4F9D03L, new byte[] { 0x9C }),               // Class Label Pointer Fix
+                    Tuple.Create(0x4F9DEEL, new byte[] { 0x9D }),               // Class Label Pointer Fix
                 };
             }
             else if (File.Exists("gog.ico") || File.Exists("kwrapper.dll"))             // GoG or Amazon Aspyr
@@ -486,6 +488,8 @@ namespace Launcher
                     Tuple.Create(0x5827F4L, new byte[] { 0x75 }),               // Class Values
                     Tuple.Create(0x582817L, new byte[] { 0x76 }),               // Class Values
                     Tuple.Create(0x58283BL, new byte[] { 0x74 }),               // Class Values
+                    Tuple.Create(0x4F9D03L, new byte[] { 0x75 }),               // Class Label Pointer Fix
+                    Tuple.Create(0x4F9DEEL, new byte[] { 0x76 }),               // Class Label Pointer Fix
                 };
             }
             else if (File.Exists("swupdate.exe") || File.Exists("DirectX/DSETUP.dll"))  // Disc or Steam LegacyPC or GoG Legacy
@@ -504,6 +508,8 @@ namespace Launcher
                     Tuple.Create(0x3B3B81L, new byte[] { 0x62 }),               // Class Values
                     Tuple.Create(0x3B3B87L, new byte[] { 0x63 }),               // Class Values
                     Tuple.Create(0x3B3B8DL, new byte[] { 0x61 }),               // Class Values
+                    Tuple.Create(0x4F9D03L, new byte[] { 0x62 }),               // Class Label Pointer Fix
+                    Tuple.Create(0x4F9DEEL, new byte[] { 0x63 }),               // Class Label Pointer Fix
                 };
             }
             BinaryUtility.ReplaceBytes(replacements, "swkotor2.exe");
@@ -532,6 +538,8 @@ namespace Launcher
                     Tuple.Create(0x584045L, new byte[] { 0x9A }),               // Class Values
                     Tuple.Create(0x584021L, new byte[] { 0x99 }),               // Class Values
                     Tuple.Create(0x583FFEL, new byte[] { 0x98 }),               // Class Values
+                    Tuple.Create(0x4F9D03L, new byte[] { 0x9A }),               // Class Label Pointer Fix
+                    Tuple.Create(0x4F9DEEL, new byte[] { 0x99 }),               // Class Label Pointer Fix
                 };
             }
             else if (File.Exists("gog.ico") || File.Exists("kwrapper.dll"))             // GoG or Amazon Aspyr
@@ -553,6 +561,8 @@ namespace Launcher
                     Tuple.Create(0x5827F4L, new byte[] { 0x73 }),               // Class Values
                     Tuple.Create(0x582817L, new byte[] { 0x72 }),               // Class Values
                     Tuple.Create(0x58283BL, new byte[] { 0x71 }),               // Class Values
+                    Tuple.Create(0x4F9D03L, new byte[] { 0x73 }),               // Class Label Pointer Fix
+                    Tuple.Create(0x4F9DEEL, new byte[] { 0x72 }),               // Class Label Pointer Fix
                 };
             }
             else if (File.Exists("swupdate.exe") || File.Exists("DirectX/DSETUP.dll"))  // Disc or Steam LegacyPC or GoG Legacy
@@ -571,6 +581,8 @@ namespace Launcher
                     Tuple.Create(0x3B3B81L, new byte[] { 0x60 }),               // Class Values
                     Tuple.Create(0x3B3B87L, new byte[] { 0x5F }),               // Class Values
                     Tuple.Create(0x3B3B8DL, new byte[] { 0x5E }),               // Class Values
+                    Tuple.Create(0x4F9D03L, new byte[] { 0x60 }),               // Class Label Pointer Fix
+                    Tuple.Create(0x4F9DEEL, new byte[] { 0x5F }),               // Class Label Pointer Fix
                 };
             }
             BinaryUtility.ReplaceBytes(replacements, "swkotor2.exe");
