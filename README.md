@@ -12,29 +12,26 @@ Hoping to put out a proper release of all three parts of the project again some 
 ## Installation
 The following install order is *required* for Expanded Galaxy Main:
 
-NOTE : Do not use the Steam Workshop for any mods when using this project.
+NOTE : Do not use the Steam Workshop for any mods when using this project, generally I advise avoiding the Steam Workshop altogether for mods when it comes to this game. I would also advise not using other mods with this project as they are not to be considered compatible.
 
 1: (KotOR 2 TSL) [https://store.steampowered.com/app/208580/STAR_WARS_Knights_of_the_Old_Republic_II__The_Sith_Lords/]
 
-2: 1.0B Patch "sw_pc_english_from200424_to210427.exe" ( GoG & Steam Users Must Skip This Step ) [https://www.moddb.com/games/star-wars-knights-of-the-old-republic-ii/downloads/patch-1-0b-us]
+2: 1.0B Patch "sw_pc_english_from200424_to210427.exe" ( GoG & Steam Users Must Skip This Step - This Step Is For Disc Users Only ) [https://www.moddb.com/games/star-wars-knights-of-the-old-republic-ii/downloads/patch-1-0b-us]
 
-3: Aspyr Patched Files ( Optional for Disc Users ) ( GoG & Steam Users Must Skip This Step ) - DOWNLOAD LINK DEAD - [https://www.gog.com/forum/star_wars_knights_of_the_old_republic_series/kotor_ii_drmfree_steam_update/page1]
-	As I understand it, the Aspyr patch is now included with the GoG release by default, however now that the download link is dead, there is no way to apply it to the Disc version of the game.
+3: TSLRCM [https://deadlystream.com/files/file/578-tsl-restored-content-mod/]
 
-4: TSLRCM [https://deadlystream.com/files/file/578-tsl-restored-content-mod/]
+4: M4-78EP [https://deadlystream.com/files/file/277-m4-78-enhancement-project/]
 
-5: M4-78EP [https://deadlystream.com/files/file/277-m4-78-enhancement-project/]
-
-6: Coruscant [https://deadlystream.com/files/file/585-coruscant-jedi-temple-by-deathdisco/]
+5: Coruscant [https://deadlystream.com/files/file/585-coruscant-jedi-temple-by-deathdisco/]
 
 - Ignore the following warning while installing Coruscant : "Done. Changes have been applied, but 1 warnings were encountered."
 
-7: TSL Expanded Galaxy (Main) (the mod provided by this repo)
+6: TSL Expanded Galaxy (Main) (the mod provided by this repo)
 
 ## Optional Add-ons
-8: KotOR Expanded Galaxy (Port) [https://github.com/Thor110/Expanded-Galaxy-Port]
+7: KotOR Expanded Galaxy (Port) [https://github.com/Thor110/Expanded-Galaxy-Port]
 
-9: Brotherhood (Hood) [https://github.com/Thor110/Expanded-Galaxy-Hood]
+8: Brotherhood (Hood) [https://github.com/Thor110/Expanded-Galaxy-Hood]
 
 ## Terms to know right off the bat:
 *K1/KotOR1*: Knights of the Old Republic 1
